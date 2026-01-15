@@ -1,0 +1,947 @@
+INFO - 2024-08-31 05:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 05:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 12:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 12:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 12:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 12:53:19 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 12:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 12:53:27 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 12:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 12:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 12:54:09 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 12:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 12:59:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 12:59:51 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:00:58 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:01:10 --> Attempt to read property "nm_rombel" on null
+in APPPATH\Views\print\ijinsiswa.php on line 39.
+ 1 APPPATH\Views\print\ijinsiswa.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_rombel" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:01:25 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:02:25 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:03:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:03:14 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:05:14 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:08:57 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:09:12 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:11:12 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:11:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 13:11:46 --> Attempt to read property "tgl_absen" on null
+in APPPATH\Views\print\ijinsiswa.php on line 31.
+ 1 APPPATH\Views\print\ijinsiswa.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl_absen" on null', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\ijinsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/ijinsiswa', [], true)
+ 5 APPPATH\Controllers\Approveijinsiswa.php(69): view('print/ijinsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Approveijinsiswa->printijin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Approveijinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 13:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 06:14:23 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-31 06:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 13:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-31 07:06:45 --> mysqli_sql_exception: Column 'id_ptk' in IN/ALL/ANY subquery is ambiguous in D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_ptk`....', 0)
+#1 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_ptk`....')
+#2 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_ptk`....')
+#3 D:\PROJECT-CI\mahaba\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_ptk`....', Array, false)
+#4 D:\PROJECT-CI\mahaba\app\Models\Pegawai_model.php(118): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\mahaba\app\Controllers\Rombel.php(31): App\Models\Pegawai_model->getPegawaiwalikelas('2')
+#6 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(934): App\Controllers\Rombel->index()
+#7 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+#8 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\mahaba\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\mahaba\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#11 {main}
+CRITICAL - 2024-08-31 07:06:46 --> Column 'id_ptk' in IN/ALL/ANY subquery is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `id_ptk` NOT IN :id_ptk:
+AND `t_ptk`.`id_jenis_ptk` = :t_ptk.id_jenis_ptk:', [...], false)
+ 5 APPPATH\Models\Pegawai_model.php(118): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(31): App\Models\Pegawai_model->getPegawaiwalikelas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-31 07:07:21 --> mysqli_sql_exception: Column 'id_ptk' in field list is ambiguous in D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_ptk`....', 0)
+#1 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_ptk`....')
+#2 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_ptk`....')
+#3 D:\PROJECT-CI\mahaba\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_ptk`....', Array, false)
+#4 D:\PROJECT-CI\mahaba\app\Models\Pegawai_model.php(118): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\mahaba\app\Controllers\Rombel.php(31): App\Models\Pegawai_model->getPegawaiwalikelas('2')
+#6 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(934): App\Controllers\Rombel->index()
+#7 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+#8 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\mahaba\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\mahaba\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#11 {main}
+CRITICAL - 2024-08-31 07:07:21 --> Column 'id_ptk' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `t_ptk`.`id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `t_ptk`.`id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `t_ptk`.`id_ptk` NOT IN (SELECT `id_ptk` FROM `t_rombel` WHERE `id_tapel` = \'2\')
+AND `t_ptk`.`id_jenis_ptk` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_ptk`.`id_jenis_ptk` as `id_jenis_ptk`, `t_ptk`.`id_ptk` as `id_ptk`, `nip`, `nama_ptk`, `nama_jenis_ptk`
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+JOIN `t_anggota_shift` ON `t_anggota_shift`.`id_ptk` = `t_ptk`.`id_ptk`
+WHERE `t_ptk`.`id_ptk` NOT IN :t_ptk.id_ptk:
+AND `t_ptk`.`id_jenis_ptk` = :t_ptk.id_jenis_ptk:', [...], false)
+ 5 APPPATH\Models\Pegawai_model.php(118): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Rombel.php(31): App\Models\Pegawai_model->getPegawaiwalikelas('2')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Rombel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 07:07:46 --> Undefined array key "id_ptk"
+in APPPATH\Views\master\rombel.php on line 112.
+ 1 APPPATH\Views\master\rombel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ptk"', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\master\\rombel.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\master\\rombel.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/rombel', [], true)
+ 5 APPPATH\Controllers\Rombel.php(38): view('master/rombel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Rombel->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rombel))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:08:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-31 07:22:12 --> mysqli_sql_exception: Table 'absen_mahaba.t_walikelas' doesn't exist in D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PROJECT-CI\mahaba\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\mahaba\app\Models\Walikelas_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\mahaba\app\Controllers\Walikelas.php(24): App\Models\Walikelas_model->getWalikelas()
+#6 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(934): App\Controllers\Walikelas->index()
+#7 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Walikelas))
+#8 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\mahaba\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\mahaba\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#11 {main}
+CRITICAL - 2024-08-31 07:22:12 --> Table 'absen_mahaba.t_walikelas' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `t_walikelas`
+ORDER BY `id_walikelas`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `t_walikelas`
+ORDER BY `id_walikelas`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `t_walikelas`
+ORDER BY `id_walikelas`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_walikelas`
+ORDER BY `id_walikelas`', [], false)
+ 5 APPPATH\Models\Walikelas_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Walikelas.php(24): App\Models\Walikelas_model->getWalikelas()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Walikelas->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Walikelas))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:22:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 07:33:52 --> Undefined variable $id
+in APPPATH\Views\index\navbar.php on line 147.
+ 1 APPPATH\Views\index\navbar.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\index\\navbar.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\index\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(49): view('index/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-31 07:34:14 --> mysqli_sql_exception: Unknown column 'id_ptk' in 'where clause' in D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\mahaba\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\mahaba\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\mahaba\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\mahaba\app\Views\index\navbar.php(149): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\mahaba\system\View\View.php(213): include('D:\\PROJECT-CI\\m...')
+#6 D:\PROJECT-CI\mahaba\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\PROJECT-CI\mahaba\system\Common.php(1184): CodeIgniter\View\View->render('index/navbar', Array, true)
+#8 D:\PROJECT-CI\mahaba\app\Controllers\Home.php(49): view('index/navbar', Array)
+#9 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\PROJECT-CI\mahaba\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PROJECT-CI\mahaba\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\PROJECT-CI\mahaba\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#14 {main}
+CRITICAL - 2024-08-31 07:34:14 --> Unknown column 'id_ptk' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_rombel`
+WHERE `id_ptk` = \'1\'
+AND `id_tapel` = \'2\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_rombel`
+WHERE `id_ptk` = \'1\'
+AND `id_tapel` = \'2\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_rombel`
+WHERE `id_ptk` = \'1\'
+AND `id_tapel` = \'2\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_rombel`
+WHERE `id_ptk` = :id_ptk:
+AND `id_tapel` = :id_tapel:', [...], false)
+ 5 APPPATH\Views\index\navbar.php(149): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\index\\navbar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index/navbar', [], true)
+ 9 APPPATH\Controllers\Home.php(49): view('index/navbar', [...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 07:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:34:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 07:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:02:43 --> Cannot redeclare App\Controllers\Absensisiswa::updatetidakmasuk()
+in APPPATH\Controllers\Absensisiswa.php on line 701.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-31 08:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:16:52 --> Unclosed '{' on line 105
+in APPPATH\Views\master\koreksiwali.php on line 277.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksiwali', [], true)
+ 3 APPPATH\Controllers\Absensisiswa.php(666): view('master/koreksiwali', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksiwali()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:18:04 --> Unclosed '{' on line 105
+in APPPATH\Views\master\koreksiwali.php on line 277.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksiwali', [], true)
+ 3 APPPATH\Controllers\Absensisiswa.php(666): view('master/koreksiwali', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksiwali()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:19:39 --> Unclosed '{' on line 105
+in APPPATH\Views\master\koreksiwali.php on line 277.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksiwali', [], true)
+ 3 APPPATH\Controllers\Absensisiswa.php(666): view('master/koreksiwali', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksiwali()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:21:26 --> syntax error, unexpected token "||"
+in APPPATH\Views\master\koreksiwali.php on line 140.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksiwali', [], true)
+ 3 APPPATH\Controllers\Absensisiswa.php(666): view('master/koreksiwali', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksiwali()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:26:22 --> Too few arguments to function rombelwalikelas(), 1 passed in D:\PROJECT-CI\mahaba\app\Controllers\Reportwal.php on line 226 and exactly 2 expected
+in APPPATH\Views\func.php on line 1070.
+ 1 APPPATH\Controllers\Reportwal.php(226): rombelwalikelas('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->persiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:31:43 --> Too few arguments to function rombelwalikelas(), 1 passed in D:\PROJECT-CI\mahaba\app\Controllers\Reportwal.php on line 226 and exactly 2 expected
+in APPPATH\Views\func_siswa.php on line 1163.
+ 1 APPPATH\Controllers\Reportwal.php(226): rombelwalikelas('1')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->persiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:32:49 --> Class "App\Controllers\Absensi_model" not found
+in APPPATH\Controllers\Reportwal.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:34:25 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(183): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:34:25 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(183): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:34:25 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(183): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:34:25 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(183): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:35:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:35:08 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:35:08 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:35:08 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:37:58 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:37:58 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:37:58 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:37:58 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:38:49 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:38:49 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-31 08:38:49 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+CRITICAL - 2024-08-31 08:38:49 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalrombel.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\pertanggalrombel.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalrombel', [], true)
+ 6 APPPATH\Controllers\Reportwal.php(135): view('print/pertanggalrombel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->printpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-31 08:40:48 --> Undefined variable $getPegawai
+in APPPATH\Views\print\bulanan.php on line 51.
+ 1 APPPATH\Views\print\bulanan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getPegawai', 'D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\bulanan.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mahaba\\app\\Views\\print\\bulanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/bulanan', [], true)
+ 5 APPPATH\Controllers\Reportwal.php(210): view('print/bulanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportwal->cetakbulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportwal))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mahaba\\public\\index.php')
+INFO - 2024-08-31 08:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 08:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-31 09:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,134 @@
+INFO - 2024-08-01 06:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 13:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 06:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-01 07:38:31 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-01 07:38:31 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-01 07:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-01 07:38:31 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-01 07:38:31 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-01 07:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-01 07:40:01 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(321): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-01 07:40:01 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(321): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-01 07:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-01 07:40:02 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(321): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-01 07:40:02 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(321): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-01 07:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-01 07:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

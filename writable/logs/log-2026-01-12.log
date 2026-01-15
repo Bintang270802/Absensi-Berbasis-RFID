@@ -1,0 +1,262 @@
+ERROR - 2026-01-12 14:14:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'absensi' in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absensi', 3306, '', 0)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#4 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'absensi' in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#3 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#4 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2026-01-12 14:14:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'absensi'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FROM t_setting_aplikasi')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2026-01-12 19:46:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absensi', 3306, '', 0)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#4 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#3 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#4 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2026-01-12 19:46:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FROM t_setting_aplikasi')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sekolah_ulil_albab\\public\\index.php')
+INFO - 2026-01-12 19:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 19:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 20:09:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absensi', 3306, '', 0)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2026-01-12 20:09:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_siswa`
+WHERE `sts_siswa` = :sts_siswa:
+ORDER BY `nm_siswa`', [...], false)
+ 3 APPPATH\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sekolah_ulil_albab\\public\\index.php')
+INFO - 2026-01-12 20:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 20:09:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absensi', 3306, '', 0)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#8 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswa->index()
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2026-01-12 20:09:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_siswa`
+WHERE `sts_siswa` = :sts_siswa:
+ORDER BY `nm_siswa`', [...], false)
+ 3 APPPATH\Models\Siswa_model.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Siswa.php(25): App\Models\Siswa_model->getSiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswa->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sekolah_ulil_albab\\public\\index.php')
+INFO - 2026-01-12 20:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 20:09:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absensi', 3306, '', 0)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_siswa...', Array, false)
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswarombel_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswarombel.php(28): App\Models\Siswarombel_model->getSiswarombel('1')
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswarombel->index()
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswarombel))
+#8 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\sekolah_ulil_albab\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\sekolah_ulil_albab\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_siswa...', Array, false)
+#3 C:\xampp\htdocs\sekolah_ulil_albab\app\Models\Siswarombel_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\sekolah_ulil_albab\app\Controllers\Siswarombel.php(28): App\Models\Siswarombel_model->getSiswarombel('1')
+#5 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(934): App\Controllers\Siswarombel->index()
+#6 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswarombel))
+#7 C:\xampp\htdocs\sekolah_ulil_albab\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sekolah_ulil_albab\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sekolah_ulil_albab\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2026-01-12 20:09:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_siswa_rombel`.`id_siswa` as `id_siswa`, `no_induk`, `nm_siswa`, `nm_rombel`, `jk`, `id_siswa_rombel`, `t_siswa_rombel`.`id_rombel` as `id_rombel`
+FROM `t_siswa_rombel`
+LEFT JOIN `t_siswa` ON `t_siswa`.`id_siswa` = `t_siswa_rombel`.`id_siswa`
+LEFT JOIN `t_rombel` ON `t_rombel`.`id_rombel` = `t_siswa_rombel`.`id_rombel`
+WHERE `t_siswa_rombel`.`id_rombel` = :t_siswa_rombel.id_rombel:', [...], false)
+ 3 APPPATH\Models\Siswarombel_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Siswarombel.php(28): App\Models\Siswarombel_model->getSiswarombel('1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Siswarombel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Siswarombel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\sekolah_ulil_albab\\public\\index.php')
+INFO - 2026-01-12 20:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:14:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-12 20:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

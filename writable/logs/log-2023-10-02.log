@@ -1,0 +1,414 @@
+INFO - 2023-10-02 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 03:43:56 --> mysqli_sql_exception: Table 'absen_unsuri.r_shift' doesn't exist in engine in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_peg...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_peg...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_peg...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_peg...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Home.php(31): view('home/home_admin', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-10-02 03:43:56 --> Table 'absen_unsuri.r_shift' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM, t_anggota_shift.id_shift as id_shift, jam_masuk FROM tweb_pegawai_hadir
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-10-02\' AND STATUS=0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM, t_anggota_shift.id_shift as id_shift, jam_masuk FROM tweb_pegawai_hadir
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-10-02\' AND STATUS=0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM, t_anggota_shift.id_shift as id_shift, jam_masuk FROM tweb_pegawai_hadir
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-10-02\' AND STATUS=0')
+ 4 APPPATH\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM, t_anggota_shift.id_shift as id_shift, jam_masuk FROM tweb_pegawai_hadir
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-10-02\' AND STATUS=0')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 8 APPPATH\Controllers\Home.php(31): view('home/home_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 03:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-02 03:49:59 --> mysqli_sql_exception: Duplicate entry '601-2023-10-02-0' for key 'PRIMARY' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tw...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tw...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tw...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tw...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Absensi_model.php(185): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Absensi.php(370): App\Models\Absensi_model->saveAbsensi(Array)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Absensi->updatemasuk()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-10-02 03:49:59 --> Duplicate entry '601-2023-10-02-0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2023-10-02\', \'16:00\', 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2023-10-02\', \'16:00\', 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2023-10-02\', \'16:00\', 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (:NO_INDUK:, :ID_PEGAWAI:, :TANGGAL:, :JAM:, :STATUS:)', [...], false)
+ 5 APPPATH\Models\Absensi_model.php(185): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Absensi.php(370): App\Models\Absensi_model->saveAbsensi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->updatemasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 03:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 03:54:38 --> Undefined variable: success
+in APPPATH\Controllers\Absensi.php on line 373.
+ 1 APPPATH\Controllers\Absensi.php(373): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: success', 'D:\\PROJECT-CI\\Absensi\\app\\Controllers\\Absensi.php', 373, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->updatemasuk()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 03:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 03:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:01:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 04:58:47 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 04:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 04:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:03:07 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:03:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:04:50 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:06:25 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:08:16 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:19:33 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\BaseResult.php on line 335.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:21:18 --> Maximum execution time of 60 seconds exceeded
+in APPPATH\Views\func.php on line 558.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:23:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:26:07 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-02 05:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:28:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:37:49 --> A non well formed numeric value encountered
+in APPPATH\Views\func.php on line 561.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 561, [...])
+ 2 APPPATH\Views\func.php(561): date('l', '2023-10-02')
+ 3 APPPATH\Views\report\pertanggal.php(137): jumalphapertanggal('1', '2023-10-01', '2023-10-02')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggal.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggal', [], true)
+ 7 APPPATH\Controllers\Absensi.php(158): view('report/pertanggal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->pertanggal()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 05:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 05:41:00 --> Undefined variable: jumHari
+in APPPATH\Views\func.php on line 564.
+ 1 APPPATH\Views\func.php(564): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jumHari', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 564, [...])
+ 2 APPPATH\Views\report\pertanggal.php(137): jumalphapertanggal('1', '2023-10-01', '2023-10-02')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(158): view('report/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->pertanggal()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 05:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 05:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:24:58 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:24:58 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:25:47 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:25:47 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:25:56 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:25:56 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:28:13 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 06:28:14 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 06:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 06:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 07:08:03 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 07:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-02 07:08:03 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 65.
+ 1 APPPATH\Views\func.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\func.php', 65, [...])
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(293): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-10-02 07:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 07:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-02 08:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

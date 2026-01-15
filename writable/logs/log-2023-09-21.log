@@ -1,0 +1,1779 @@
+INFO - 2023-09-21 06:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 06:26:44 --> mysqli_sql_exception: Unknown column 'nama_jenis_ptk' in 'field list' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `r_kat_g...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r_kat_g...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r_kat_g...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `r_kat_g...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Katgaji_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Katgaji.php(27): App\Models\Katgaji_model->getKatgaji()
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Katgaji->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Katgaji))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 06:26:44 --> Unknown column 'nama_jenis_ptk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`', [], false)
+ 5 APPPATH\Models\Katgaji_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Katgaji.php(27): App\Models\Katgaji_model->getKatgaji()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Katgaji->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Katgaji))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 06:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 06:28:30 --> mysqli_sql_exception: Unknown column 'nama_jenis_ptk' in 'field list' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `r_kat_g...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r_kat_g...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r_kat_g...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `r_kat_g...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Katgaji_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Katgaji.php(27): App\Models\Katgaji_model->getKatgaji()
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Katgaji->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Katgaji))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 06:28:30 --> Unknown column 'nama_jenis_ptk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `r_kat_gaji`.`id_jenis_ptk` as `id_jenis_ptk`, `nama_jenis_ptk`, `nm_kat_gaji`, `sts_kat_gaji`, `id_kat_gaji`
+FROM `r_kat_gaji`', [], false)
+ 5 APPPATH\Models\Katgaji_model.php(15): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Katgaji.php(27): App\Models\Katgaji_model->getKatgaji()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Katgaji->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Katgaji))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 06:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 06:43:29 --> Undefined variable: getShift
+in APPPATH\Views\master\gajidosen.php on line 59.
+ 1 APPPATH\Views\master\gajidosen.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getShift', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php', 59, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/gajidosen', [], true)
+ 5 APPPATH\Controllers\Gajidosen.php(37): view('master/gajidosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 06:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:45:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 06:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:20:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:24:38 --> Undefined variable: jenis
+in APPPATH\Views\master\gajidosen.php on line 87.
+ 1 APPPATH\Views\master\gajidosen.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jenis', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php', 87, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/gajidosen', [], true)
+ 5 APPPATH\Controllers\Gajidosen.php(65): view('master/gajidosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 07:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:25:28 --> Undefined variable: bln
+in APPPATH\Views\master\gajidosen.php on line 87.
+ 1 APPPATH\Views\master\gajidosen.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bln', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php', 87, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/gajidosen', [], true)
+ 5 APPPATH\Controllers\Gajidosen.php(65): view('master/gajidosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 07:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 07:25:45 --> Undefined variable: Bulan
+in APPPATH\Views\master\gajidosen.php on line 87.
+ 1 APPPATH\Views\master\gajidosen.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Bulan', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php', 87, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/gajidosen', [], true)
+ 5 APPPATH\Controllers\Gajidosen.php(65): view('master/gajidosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 07:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:39:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 07:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:06:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:08:18 --> Undefined variable: id_kat
+in APPPATH\Views\master\gajidosen.php on line 199.
+ 1 APPPATH\Views\master\gajidosen.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_kat', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php', 199, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\master\\gajidosen.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/gajidosen', [], true)
+ 5 APPPATH\Controllers\Gajidosen.php(65): view('master/gajidosen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:15:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('Rp 2.500.000,00')
+WHERE `id_ptk` = '1'
+AND `id_kat_gaji` = '2'
+AND `bln...' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` S...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` S...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` S...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` S...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1', '2', '09', '2023')
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 08:15:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('Rp 2.500.000,00')
+WHERE `id_ptk` = '1'
+AND `id_kat_gaji` = '2'
+AND `bln...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` SET 0 = (\'Rp 2.500.000,00\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` SET 0 = (\'Rp 2.500.000,00\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` SET 0 = (\'Rp 2.500.000,00\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` SET 0 = :0:
+WHERE `id_ptk` = :id_ptk:
+AND `id_kat_gaji` = :id_kat_gaji:
+AND `bln` = :bln:
+AND `thn` = :thn:', [...], false)
+ 5 APPPATH\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1', '2', '09', '2023')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:18:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_ptk` = '1'
+AND `id_kat_gaji` = '2'
+AND `bln` = '09'...' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` S...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` S...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` S...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` S...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1', '2', '09', '2023')
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 08:18:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_ptk` = '1'
+AND `id_kat_gaji` = '2'
+AND `bln` = '09'...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_ptk` = \'1\'
+AND `id_kat_gaji` = \'2\'
+AND `bln` = \'09\'
+AND `thn` = \'2023\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` SET 0 = :0:
+WHERE `id_ptk` = :id_ptk:
+AND `id_kat_gaji` = :id_kat_gaji:
+AND `bln` = :bln:
+AND `thn` = :thn:', [...], false)
+ 5 APPPATH\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1', '2', '09', '2023')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-21 08:22:27 --> You must specify a constraint to match on for batch updates.
+in SYSTEMPATH\Database\MySQLi\Builder.php on line 72.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1792): CodeIgniter\Database\MySQLi\Builder->_updateBatch('`gaji`', [...], [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+ 3 APPPATH\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->updateBatch([...])
+ 4 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1', '2', '09', '2023')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 08:24:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`\nI...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`\nI...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`\nI...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`\nI...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->updateBatch(Array, Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1', '2', '09', '2023')
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 08:24:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+ 6 APPPATH\Models\Gaji_model.php(29): CodeIgniter\Database\BaseBuilder->updateBatch([...], [...])
+ 7 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1', '2', '09', '2023')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:26:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`\nI...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`\nI...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`\nI...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`\nI...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->updateBatch(Array, Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1')
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 08:26:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+ 6 APPPATH\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->updateBatch([...], [...])
+ 7 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 08:26:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_gaji` = 4' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` S...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` S...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` S...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` S...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1')
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 08:26:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_gaji` = 4' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` SET 0 = :0:
+WHERE `id_gaji` = :id_gaji:', [...], false)
+ 5 APPPATH\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 08:26:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`\nI...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`\nI...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`\nI...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`\nI...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->updateBatch(Array, Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, '1')
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 08:26:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji`
+INNER JOIN (
+SELECT \'2500000\' `nominal`
+) `_u`
+ON `gaji`.`nominal` = `_u`.`nominal`
+SET
+', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2562): CodeIgniter\Database\BaseBuilder->batchExecute('_updateBatch', 100)
+ 6 APPPATH\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->updateBatch([...], [...])
+ 7 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], '1')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 08:29:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_gaji` = 4' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` S...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` S...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` S...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` S...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji(Array, 4)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 08:29:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0 = ('2500000')
+WHERE `id_gaji` = 4' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `gaji` SET 0 = (\'2500000\')
+WHERE `id_gaji` = 4')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `gaji` SET 0 = :0:
+WHERE `id_gaji` = :id_gaji:', [...], false)
+ 5 APPPATH\Models\Gaji_model.php(26): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Gajidosen.php(132): App\Models\Gaji_model->editGaji([...], 4)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Gajidosen->update()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gajidosen))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 08:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 08:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 11:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-21 12:27:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:27:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:27:31 --> mysqli_sql_exception: Table 'absen_unsuri.t_pegawai_hadir' doesn't exist in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:27:31 --> Table 'absen_unsuri.t_pegawai_hadir' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:28:13 --> mysqli_sql_exception: Table 'absen_unsuri.t_pegawai_hadir' doesn't exist in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:28:13 --> Table 'absen_unsuri.t_pegawai_hadir' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT IN (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:28:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:28:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM t_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:29:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:29:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:29:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:29:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:32:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1 in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAW...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAW...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAW...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAW...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:32:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'EXIST (select id_ptk from t_point where tgl_point='2023-09-21')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 4 APPPATH\Views\home\home_front.php(5): CodeIgniter\Database\BaseConnection->query('SELECT ID_PEGAWAI FROM tweb_pegawai_hadir where TANGGAL=\'2023-09-21\' and STATUS=0 and ID_PEGAWAI NOT EXIST (select id_ptk from t_point where tgl_point=\'2023-09-21\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 12:40:57 --> Undefined property: stdClass::$id_ptk
+in APPPATH\Views\home\home_front.php on line 13.
+ 1 APPPATH\Views\home\home_front.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_ptk', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php', 13, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:46:00 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(22): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:46:00 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(22): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:46:27 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(22): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:46:27 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(22): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:47:22 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:47:22 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:47:24 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:47:24 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:47:56 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:47:56 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:48:19 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:48:19 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:51:15 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(23): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:51:15 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(23): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:57:36 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:57:36 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:57:47 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:57:47 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 12:57:50 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 12:57:50 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(24): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:01:07 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:01:07 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:07:56 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:07:56 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:11:36 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:11:36 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:11:38 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:11:38 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:13:55 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:13:55 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:13:59 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:13:59 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:14:10 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:14:10 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:14:28 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:14:28 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:18:30 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:18:30 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:18:31 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:18:31 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:18:32 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:18:32 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:34:59 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_p...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_p...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_p...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_p...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_front', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(25): view('home/home_front', Array)
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-21 13:34:59 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 4 APPPATH\Views\home\home_front.php(25): CodeIgniter\Database\BaseConnection->query('insert into t_point (id_ptk,tgl_point,nilai) values(\'1\',\'2023-09-21\',\'10\')')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 8 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:35:45 --> Undefined variable: all
+in APPPATH\Views\home\home_front.php on line 21.
+ 1 APPPATH\Views\home\home_front.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(25): view('home/home_front', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:35:57 --> Call to undefined function App\Controllers\sts_absen()
+in APPPATH\Controllers\Dashboard.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:35:59 --> Call to undefined function App\Controllers\sts_absen()
+in APPPATH\Controllers\Dashboard.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:36:41 --> Undefined variable: all
+in APPPATH\Views\home\home_front.php on line 21.
+ 1 APPPATH\Views\home\home_front.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_front.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_front', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(50): view('home/home_front', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:42:20 --> Call to undefined method App\Models\Absensi_model::savePoint
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Model->__call('savePoint', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-21 13:43:09 --> Call to undefined method App\Models\Absensi_model::savePoint
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Model->__call('savePoint', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:43:30 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 13:43:30 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (:id_ptk:, :tgl_point:, :nilai:)', [...], false)
+ 5 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:43:43 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 13:43:43 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (:id_ptk:, :tgl_point:, :nilai:)', [...], false)
+ 5 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:43:46 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 13:43:46 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (:id_ptk:, :tgl_point:, :nilai:)', [...], false)
+ 5 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:44:09 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-21 13:44:09 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (\'1\', \'2023-09-21\', 10)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `tgl_point`, `nilai`) VALUES (:id_ptk:, :tgl_point:, :nilai:)', [...], false)
+ 5 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:45:04 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 13:45:04 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 7 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:45:06 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 13:45:06 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 7 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:45:07 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 13:45:07 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 7 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+ERROR - 2023-09-21 13:45:17 --> mysqli_sql_exception: Duplicate entry '1-2023-09-21' for key 'id_ptk' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_...', NULL, false)
+#4 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\PROJECT-CI\Absensi\app\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\PROJECT-CI\Absensi\app\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint(Array)
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#12 {main}
+CRITICAL - 2023-09-21 13:45:17 --> Duplicate entry '1-2023-09-21' for key 'id_ptk'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1801): CodeIgniter\Database\BaseConnection->query('INSERT INTO `t_point` (`id_ptk`, `nilai`, `tgl_point`)
+VALUES (\'1\',10,\'2023-09-21\')', null, false)
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2192): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+ 6 APPPATH\Models\Point_model.php(36): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 7 APPPATH\Controllers\Dashboard.php(43): App\Models\Point_model->savePoint([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-21 13:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 13:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 13:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 13:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 13:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-21 14:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,288 @@
+INFO - 2024-05-13 08:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 08:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 09:02:43 --> mysqli_sql_exception: Table 'absen_smapare.cuti' doesn't exist in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Views\func.php(720): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\smapare\app\Views\report\bulanan.php(147): jumalphabln('1', '05')
+#6 D:\PROJECT-CI\smapare\system\View\View.php(213): include('D:\\PROJECT-CI\\s...')
+#7 D:\PROJECT-CI\smapare\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\smapare\system\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', Array, true)
+#9 D:\PROJECT-CI\smapare\app\Controllers\Absensi.php(389): view('report/bulanan', Array)
+#10 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+#11 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#12 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#15 {main}
+CRITICAL - 2024-05-13 09:02:43 --> Table 'absen_smapare.cuti' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `cuti`
+WHERE `id_ptk` = \'1\'
+AND `sts_approve` = 2
+AND `sts_approve_manajer` = 2
+AND MONTH(tgl_cuti) = \'05\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `cuti`
+WHERE `id_ptk` = \'1\'
+AND `sts_approve` = 2
+AND `sts_approve_manajer` = 2
+AND MONTH(tgl_cuti) = \'05\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `cuti`
+WHERE `id_ptk` = \'1\'
+AND `sts_approve` = 2
+AND `sts_approve_manajer` = 2
+AND MONTH(tgl_cuti) = \'05\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `cuti`
+WHERE `id_ptk` = :id_ptk:
+AND `sts_approve` = :sts_approve:
+AND `sts_approve_manajer` = :sts_approve_manajer:
+AND MONTH(tgl_cuti) = :MONTH(tgl_cuti):', [...], false)
+ 5 APPPATH\Views\func.php(720): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\report\bulanan.php(147): jumalphabln('1', '05')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+10 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 09:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 09:46:33 --> Undefined variable: jml
+in APPPATH\Views\func.php on line 949.
+ 1 APPPATH\Views\func.php(949): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: jml', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 949, [...])
+ 2 APPPATH\Views\home\chart.php(717): jumterlambatblnadmin(10)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\home\\chart.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 6 APPPATH\Controllers\Home.php(52): view('home/chart')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 09:47:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:49:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 09:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-13 09:58:48 --> mysqli_sql_exception: Unknown column 'nm_jenis_ptk' in 'where clause' in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Models\Pegawai_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\smapare\app\Controllers\Jadwalsatpam.php(39): App\Models\Pegawai_model->getPegawaisatpam()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+#8 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#11 {main}
+CRITICAL - 2024-05-13 09:58:48 --> Unknown column 'nm_jenis_ptk' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `nm_jenis_ptk` = \'Satpam\'
+ORDER BY `nama_ptk`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `nm_jenis_ptk` = \'Satpam\'
+ORDER BY `nama_ptk`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `nm_jenis_ptk` = \'Satpam\'
+ORDER BY `nama_ptk`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_ptk`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `nm_jenis_ptk` = :nm_jenis_ptk:
+ORDER BY `nama_ptk`', [...], false)
+ 5 APPPATH\Models\Pegawai_model.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jadwalsatpam.php(39): App\Models\Pegawai_model->getPegawaisatpam()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 09:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 09:59:22 --> Undefined variable: getPil
+in APPPATH\Views\setting\jadwalsatpam.php on line 98.
+ 1 APPPATH\Views\setting\jadwalsatpam.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getPil', 'D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 5 APPPATH\Controllers\Jadwalsatpam.php(48): view('setting/jadwalsatpam', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:01:13 --> Undefined variable: getPil
+in APPPATH\Views\setting\jadwalsatpam.php on line 98.
+ 1 APPPATH\Views\setting\jadwalsatpam.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getPil', 'D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php', 98, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 5 APPPATH\Controllers\Jadwalsatpam.php(50): view('setting/jadwalsatpam', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:01:27 --> Undefined variable: getDatajenis
+in APPPATH\Views\setting\jadwalsatpam.php on line 160.
+ 1 APPPATH\Views\setting\jadwalsatpam.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDatajenis', 'D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php', 160, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 5 APPPATH\Controllers\Jadwalsatpam.php(50): view('setting/jadwalsatpam', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:01:54 --> Undefined variable: getShift
+in APPPATH\Views\setting\jadwalsatpam.php on line 176.
+ 1 APPPATH\Views\setting\jadwalsatpam.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getShift', 'D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php', 176, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 5 APPPATH\Controllers\Jadwalsatpam.php(50): view('setting/jadwalsatpam', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:02:08 --> Undefined variable: getDatajenis
+in APPPATH\Views\setting\jadwalsatpam.php on line 241.
+ 1 APPPATH\Views\setting\jadwalsatpam.php(241): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getDatajenis', 'D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php', 241, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 5 APPPATH\Controllers\Jadwalsatpam.php(51): view('setting/jadwalsatpam', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:08:59 --> syntax error, unexpected ')'
+in APPPATH\Controllers\Jadwalsatpam.php on line 83.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Jadwalsatpam')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Jadwalsatpam')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Jadwalsatpam')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:12:11 --> Trying to get property 'nm_shift' of non-object
+in APPPATH\Views\func.php on line 1140.
+ 1 APPPATH\Views\func.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nm_shift\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 1140, [...])
+ 2 APPPATH\Views\setting\jadwalsatpam.php(172): shiftjadwal('8', '2024-05-5')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 6 APPPATH\Controllers\Jadwalsatpam.php(51): view('setting/jadwalsatpam', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:12:40 --> Trying to get property 'nm_shift' of non-object
+in APPPATH\Views\func.php on line 1140.
+ 1 APPPATH\Views\func.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nm_shift\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 1140, [...])
+ 2 APPPATH\Views\setting\jadwalsatpam.php(172): shiftjadwal('8', '2024-05-5')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\setting\\jadwalsatpam.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('setting/jadwalsatpam', [], true)
+ 6 APPPATH\Controllers\Jadwalsatpam.php(51): view('setting/jadwalsatpam', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jadwalsatpam->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwalsatpam))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-13 10:51:33 --> syntax error, unexpected 'redirect' (T_STRING)
+in APPPATH\Controllers\Jadwalsatpam.php on line 136.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Jadwalsatpam/')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Jadwalsatpam/')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Jadwalsatpam/')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-13 10:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-13 10:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

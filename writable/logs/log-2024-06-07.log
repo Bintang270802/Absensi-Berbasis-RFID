@@ -1,0 +1,754 @@
+INFO - 2024-06-07 03:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 03:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 03:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 03:53:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 03:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 03:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 10:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 10:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 10:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:01:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:01:35 --> Undefined variable: getJenis
+in APPPATH\Views\report\harian.php on line 51.
+ 1 APPPATH\Views\report\harian.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getJenis', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\harian.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(57): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:04:46 --> Undefined variable: getJenis
+in APPPATH\Views\report\pertanggal.php on line 54.
+ 1 APPPATH\Views\report\pertanggal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getJenis', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggal.php', 54, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggal', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(208): view('report/pertanggal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->pertanggal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:05:26 --> Undefined variable: getAbsensi
+in APPPATH\Views\report\pertanggalsiswa.php on line 96.
+ 1 APPPATH\Views\report\pertanggalsiswa.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getAbsensi', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggalsiswa.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggalsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggalsiswa', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(208): view('report/pertanggalsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->pertanggal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:08:09 --> Undefined variable: getAbsensi
+in APPPATH\Views\report\pertanggalsiswa.php on line 96.
+ 1 APPPATH\Views\report\pertanggalsiswa.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getAbsensi', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggalsiswa.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\pertanggalsiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggalsiswa', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(208): view('report/pertanggalsiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->pertanggal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:10:02 --> Undefined variable: getJenis
+in APPPATH\Views\report\bulanan.php on line 65.
+ 1 APPPATH\Views\report\bulanan.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getJenis', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\bulanan.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\bulanan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(252): view('report/bulanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->bulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:12:39 --> Undefined variable: getKaryawan
+in APPPATH\Views\report\point.php on line 97.
+ 1 APPPATH\Views\report\point.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getKaryawan', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\point.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\point.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/point', [], true)
+ 5 APPPATH\Controllers\Pointsiswa.php(39): view('report/point', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pointsiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pointsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 04:19:49 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(934): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\chartsiswa.php(32): jmlpoint('1', 1)
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/chartsiswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(511): view('home/chartsiswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 04:19:49 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(934): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\chartsiswa.php(32): jmlpoint('1', 1)
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\chartsiswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chartsiswa', [], true)
+10 APPPATH\Controllers\Absensisiswa.php(511): view('home/chartsiswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 04:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 04:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 04:22:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 05:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 05:18:43 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 05:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 05:28:36 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(879): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\chartsis.php(32): jmlpoint('1', 1)
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(511): view('home/chartsis')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 05:28:36 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(879): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\chartsis.php(32): jmlpoint('1', 1)
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\chartsis.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', [], true)
+10 APPPATH\Controllers\Absensisiswa.php(511): view('home/chartsis')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 05:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 05:30:16 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(879): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\chartsis.php(32): jmlpoint('1', 1)
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(511): view('home/chartsis')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 05:30:16 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'1\'
+AND MONTH(tgl_point) = 1
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(879): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\chartsis.php(32): jmlpoint('1', 1)
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\chartsis.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', [], true)
+10 APPPATH\Controllers\Absensisiswa.php(511): view('home/chartsis')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 05:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 05:31:47 --> mysqli_sql_exception: Unknown column 'id_rombel' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(592): sts_absen('1', '2024-1-1')
+#6 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(659): jumalphabln('1', 1)
+#7 D:\PROJECT-CI\absen_mahad\app\Views\home\chartsis.php(158): jumalphablnadmin(1)
+#8 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#9 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', Array, true)
+#11 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(511): view('home/chartsis')
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+#13 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#14 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#17 {main}
+CRITICAL - 2024-06-07 05:31:47 --> Unknown column 'id_rombel' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = :id_rombel:', [...], false)
+ 5 APPPATH\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\func_siswa.php(592): sts_absen('1', '2024-1-1')
+ 7 APPPATH\Views\func_siswa.php(659): jumalphabln('1', 1)
+ 8 APPPATH\Views\home\chartsis.php(158): jumalphablnadmin(1)
+ 9 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\chartsis.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', [], true)
+12 APPPATH\Controllers\Absensisiswa.php(511): view('home/chartsis')
+13 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+14 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+15 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 05:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 05:38:02 --> mysqli_sql_exception: Unknown column 'id_rombel' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(592): sts_absen('1', '2024-1-1')
+#6 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(659): jumalphabln('1', 1)
+#7 D:\PROJECT-CI\absen_mahad\app\Views\home\chartsis.php(158): jumalphablnadmin(1)
+#8 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#9 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', Array, true)
+#11 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(511): view('home/chartsis')
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+#13 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#14 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#17 {main}
+CRITICAL - 2024-06-07 05:38:02 --> Unknown column 'id_rombel' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'7\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = :id_rombel:', [...], false)
+ 5 APPPATH\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\func_siswa.php(592): sts_absen('1', '2024-1-1')
+ 7 APPPATH\Views\func_siswa.php(659): jumalphabln('1', 1)
+ 8 APPPATH\Views\home\chartsis.php(158): jumalphablnadmin(1)
+ 9 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\chartsis.php')
+10 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chartsis', [], true)
+12 APPPATH\Controllers\Absensisiswa.php(511): view('home/chartsis')
+13 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->chart()
+14 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+15 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 05:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 05:38:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 05:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 05:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:27:41 --> Undefined property: stdClass::$nam_ptk
+in APPPATH\Controllers\Cpanel.php on line 86.
+ 1 APPPATH\Controllers\Cpanel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nam_ptk', 'D:\\PROJECT-CI\\absen_mahad\\app\\Controllers\\Cpanel.php', 86, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->process()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:28:19 --> Invalid file: "home/home_guru.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/home_guru.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_guru', [], true)
+ 3 APPPATH\Controllers\Home.php(41): view('home/home_guru')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:34:53 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 06:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:35:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 13:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:45:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 528384 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 06:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 06:49:30 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Home.php(49): view('home/home_siswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 06:49:30 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_siswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', [], true)
+10 APPPATH\Controllers\Home.php(49): view('home/home_siswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 06:49:44 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Home.php(49): view('home/home_siswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 06:49:44 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_siswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', [], true)
+10 APPPATH\Controllers\Home.php(49): view('home/home_siswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 06:49:46 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Home.php(49): view('home/home_siswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 06:49:46 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_siswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', [], true)
+10 APPPATH\Controllers\Home.php(49): view('home/home_siswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 06:49:58 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Home.php(49): view('home/home_siswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 06:49:58 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_siswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', [], true)
+10 APPPATH\Controllers\Home.php(49): view('home/home_siswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:53:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-07 06:53:01 --> mysqli_sql_exception: Unknown column 'id_siswa' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Home.php(49): view('home/home_siswa')
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-07 06:53:01 --> Unknown column 'id_siswa' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = \'6\'
+AND MONTH(tgl_point) = \'06\'
+AND YEAR(tgl_point) = \'2024\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_point`
+WHERE `id_siswa` = :id_siswa:
+AND MONTH(tgl_point) = :MONTH(tgl_point):
+AND YEAR(tgl_point) = :YEAR(tgl_point):', [...], false)
+ 5 APPPATH\Views\func_siswa.php(878): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\home\home_siswa.php(54): jmlpoint('6', '06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_siswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_siswa', [], true)
+10 APPPATH\Controllers\Home.php(49): view('home/home_siswa')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:54:27 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-07 06:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:55:19 --> Call to undefined method App\Models\Absensi_model::getAbsensisiswatgl
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Reportsis.php(36): CodeIgniter\Model->__call('getAbsensisiswatgl', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportsis->pertanggal()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportsis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 06:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 06:56:02 --> Call to undefined method App\Models\Point_model::getPointsiswabln
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Reportsis.php(165): CodeIgniter\Model->__call('getPointsiswabln', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportsis->point()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportsis))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 06:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 13:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 14:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 14:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-07 14:02:26 --> Undefined index: TANGGAL_AKSES
+in APPPATH\Views\master\ajukan.php on line 124.
+ 1 APPPATH\Views\master\ajukan.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: TANGGAL_AKSES', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\master\\ajukan.php', 124, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\master\\ajukan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/ajukan', [], true)
+ 5 APPPATH\Controllers\Ajukanizinsiswa.php(32): view('master/ajukan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajukanizinsiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajukanizinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-07 14:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 14:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 14:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 07:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-07 07:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

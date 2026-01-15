@@ -1,0 +1,661 @@
+INFO - 2023-09-12 01:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 01:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 01:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 02:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 02:58:32 --> mysqli_sql_exception: Table 'r_shift.jam_masuk' doesn't exist in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_peg...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_peg...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_peg...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_peg...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Home.php(24): view('home/home_admin')
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-12 02:58:32 --> Table 'r_shift.jam_masuk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON r_shift.id_shift = t_anggota_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON r_shift.id_shift = t_anggota_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON r_shift.id_shift = t_anggota_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 4 APPPATH\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON r_shift.id_shift = t_anggota_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 8 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 03:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 03:06:36 --> mysqli_sql_exception: Table 'r_shift.jam_masuk' doesn't exist in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_peg...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_peg...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_peg...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_peg...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Home.php(24): view('home/home_admin')
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-12 03:06:36 --> Table 'r_shift.jam_masuk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 4 APPPATH\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, r_shift.jam_masuk as jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 8 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 03:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 03:07:21 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home\home_admin.php on line 173.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 4 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 03:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 03:09:52 --> mysqli_sql_exception: Table 'absen_unsuri.jam_masuk' doesn't exist in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_peg...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_peg...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_peg...')
+#3 D:\PROJECT-CI\Absensi\app\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_peg...')
+#4 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', Array, true)
+#7 D:\PROJECT-CI\Absensi\app\Controllers\Home.php(24): view('home/home_admin')
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#13 {main}
+CRITICAL - 2023-09-12 03:09:52 --> Table 'absen_unsuri.jam_masuk' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 4 APPPATH\Views\home\home_admin.php(171): CodeIgniter\Database\BaseConnection->query('SELECT tweb_pegawai_hadir.NO_INDUK as NO_INDUK, tweb_pegawai_hadir.JAM as JAM FROM tweb_pegawai_hadir, jam_masuk
+                                                                    JOIN t_ptk ON t_ptk.nomor_absensi = tweb_pegawai_hadir.NO_INDUK
+                                                                    JOIN t_anggota_shift ON t_ptk.id_ptk = t_anggota_shift.id_ptk
+                                                                    JOIN r_shift ON t_anggota_shift.id_shift = r_shift.id_shift
+                                                                    where TANGGAL=\'2023-09-12\'')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 8 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 03:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:11:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:13:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 03:13:33 --> Undefined variable: terlambat
+in APPPATH\Views\home\home_admin.php on line 180.
+ 1 APPPATH\Views\home\home_admin.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: terlambat', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php', 180, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 03:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 03:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 04:01:00 --> mysqli_sql_exception: Unknown column 'nomr_absensi' in 'IN/ALL/ANY subquery' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Views\home\home_admin.php(219): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\Absensi\system\View\View.php(213): include('D:\\PROJECT-CI\\A...')
+#6 D:\PROJECT-CI\Absensi\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\PROJECT-CI\Absensi\system\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', Array, true)
+#8 D:\PROJECT-CI\Absensi\app\Controllers\Home.php(24): view('home/home_admin')
+#9 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#14 {main}
+CRITICAL - 2023-09-12 04:01:00 --> Unknown column 'nomr_absensi' in 'IN/ALL/ANY subquery'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `t_ptk`
+WHERE `nomr_absensi` NOT IN (SELECT `NO_INDUK` FROM `tweb_pegawai_hadir` WHERE `TANGGAL` = \'2023-09-12\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `t_ptk`
+WHERE `nomr_absensi` NOT IN (SELECT `NO_INDUK` FROM `tweb_pegawai_hadir` WHERE `TANGGAL` = \'2023-09-12\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `t_ptk`
+WHERE `nomr_absensi` NOT IN (SELECT `NO_INDUK` FROM `tweb_pegawai_hadir` WHERE `TANGGAL` = \'2023-09-12\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `t_ptk`
+WHERE `nomr_absensi` NOT IN :nomr_absensi:', [...], false)
+ 5 APPPATH\Views\home\home_admin.php(219): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\home_admin.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 9 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 04:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 04:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:09:11 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 17.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:09:16 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 17.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:09:44 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:09:47 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:10:09 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:10:18 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:11:08 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:12:19 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:12:40 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:13:11 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:13:21 --> Invalid numeric literal
+in APPPATH\Views\home\data_chart.php on line 18.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/data_chart', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('home/data_chart')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:14:56 --> Undefined variable: all_hdr9
+in APPPATH\Views\home\chart.php on line 706.
+ 1 APPPATH\Views\home\chart.php(706): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all_hdr9', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 706, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:32:33 --> Undefined variable: terlambat1
+in APPPATH\Views\home\chart.php on line 108.
+ 1 APPPATH\Views\home\chart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: terlambat1', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 108, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:34:41 --> Undefined variable: terlambat
+in APPPATH\Views\home\chart.php on line 108.
+ 1 APPPATH\Views\home\chart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: terlambat', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 108, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:34:44 --> Undefined variable: terlambat
+in APPPATH\Views\home\chart.php on line 108.
+ 1 APPPATH\Views\home\chart.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: terlambat', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 108, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:39:58 --> Undefined variable: thn2
+in APPPATH\Views\home\chart.php on line 94.
+ 1 APPPATH\Views\home\chart.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: thn2', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 94, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 05:40:21 --> Undefined variable: terlambat
+in APPPATH\Views\home\chart.php on line 105.
+ 1 APPPATH\Views\home\chart.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: terlambat', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\home\\chart.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('home/chart')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 05:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 05:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 06:50:06 --> Call to undefined function bulan()
+in APPPATH\Views\home\home_admin.php on line 302.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 4 APPPATH\Controllers\Home.php(24): view('home/home_admin')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 06:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 06:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 08:26:01 --> Call to undefined method App\Models\Absensi_model::getAbsensi
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Dashboard.php(15): CodeIgniter\Model->__call('getAbsensi', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 08:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 08:51:25 --> mysqli_sql_exception: Unknown column 'nm_jenis_ptk' in 'field list' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nomor_a...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_a...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_a...')
+#3 D:\PROJECT-CI\Absensi\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_a...', Array, false)
+#4 D:\PROJECT-CI\Absensi\app\Models\Absensi_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\Absensi\app\Controllers\Absensi.php(24): App\Models\Absensi_model->getAbsensi('2023-09-12')
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Absensi->index()
+#7 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#8 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#11 {main}
+CRITICAL - 2023-09-12 08:51:25 --> Unknown column 'nm_jenis_ptk' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nomor_absensi`, `nip`, `nama_ptk`, `JAM`, `STATUS`, `nm_jenis_ptk`
+FROM `tweb_pegawai_hadir`
+JOIN `t_ptk` ON `t_ptk`.`nomor_absensi` = `tweb_pegawai_hadir`.`NO_INDUK`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `TANGGAL` = \'2023-09-12\'
+ORDER BY `nama_ptk` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nomor_absensi`, `nip`, `nama_ptk`, `JAM`, `STATUS`, `nm_jenis_ptk`
+FROM `tweb_pegawai_hadir`
+JOIN `t_ptk` ON `t_ptk`.`nomor_absensi` = `tweb_pegawai_hadir`.`NO_INDUK`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `TANGGAL` = \'2023-09-12\'
+ORDER BY `nama_ptk` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nomor_absensi`, `nip`, `nama_ptk`, `JAM`, `STATUS`, `nm_jenis_ptk`
+FROM `tweb_pegawai_hadir`
+JOIN `t_ptk` ON `t_ptk`.`nomor_absensi` = `tweb_pegawai_hadir`.`NO_INDUK`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `TANGGAL` = \'2023-09-12\'
+ORDER BY `nama_ptk` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nomor_absensi`, `nip`, `nama_ptk`, `JAM`, `STATUS`, `nm_jenis_ptk`
+FROM `tweb_pegawai_hadir`
+JOIN `t_ptk` ON `t_ptk`.`nomor_absensi` = `tweb_pegawai_hadir`.`NO_INDUK`
+JOIN `r_jenis_ptk` ON `r_jenis_ptk`.`id_jenis_ptk` = `t_ptk`.`id_jenis_ptk`
+WHERE `TANGGAL` = :TANGGAL:
+ORDER BY `nama_ptk` ASC', [...], false)
+ 5 APPPATH\Models\Absensi_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Absensi.php(24): App\Models\Absensi_model->getAbsensi('2023-09-12')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 08:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 08:51:50 --> Undefined index: id_ptk
+in APPPATH\Views\report\harian.php on line 61.
+ 1 APPPATH\Views\report\harian.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_ptk', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensi.php(31): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 08:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 08:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 09:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 09:02:58 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\report\harian.php on line 80.
+ 1 APPPATH\Views\report\harian.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensi.php(31): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 09:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 09:05:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\report\harian.php on line 75.
+ 1 APPPATH\Views\report\harian.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php', 75, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensi.php(31): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 09:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 09:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 09:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-12 09:15:23 --> Undefined variable: row_abs
+in APPPATH\Views\report\harian.php on line 73.
+ 1 APPPATH\Views\report\harian.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row_abs', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensi.php(31): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 09:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 09:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 10:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-09-12 11:04:54 --> mysqli_sql_exception: Unknown column 'sts_ptk' in 'where clause' in D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\Absensi\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nomor_ab...', 0)
+#1 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nomor_ab...')
+#2 D:\PROJECT-CI\Absensi\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nomor_ab...')
+#3 D:\PROJECT-CI\Absensi\app\Controllers\Mesin.php(79): CodeIgniter\Database\BaseConnection->query('SELECT nomor_ab...')
+#4 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(934): App\Controllers\Mesin->upload()
+#5 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesin))
+#6 D:\PROJECT-CI\Absensi\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PROJECT-CI\Absensi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\PROJECT-CI\Absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\A...')
+#9 {main}
+CRITICAL - 2023-09-12 11:04:54 --> Unknown column 'sts_ptk' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nomor_absensi,nama_panggilan FROM t_ptk where sts_ptk=1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nomor_absensi,nama_panggilan FROM t_ptk where sts_ptk=1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nomor_absensi,nama_panggilan FROM t_ptk where sts_ptk=1')
+ 4 APPPATH\Controllers\Mesin.php(79): CodeIgniter\Database\BaseConnection->query('SELECT nomor_absensi,nama_panggilan FROM t_ptk where sts_ptk=1')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mesin->upload()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+CRITICAL - 2023-09-12 11:05:26 --> Undefined property: stdClass::$nomor_mesin
+in APPPATH\Controllers\Mesin.php on line 87.
+ 1 APPPATH\Controllers\Mesin.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nomor_mesin', 'D:\\PROJECT-CI\\Absensi\\app\\Controllers\\Mesin.php', 87, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Mesin->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mesin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2023-09-12 11:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 11:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-12 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

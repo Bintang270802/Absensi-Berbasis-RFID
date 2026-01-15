@@ -1,0 +1,320 @@
+INFO - 2024-08-03 03:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 10:08:54 --> Undefined array key "STS"
+in APPPATH\Views\master\ajukansiswa.php on line 131.
+ 1 APPPATH\Views\master\ajukansiswa.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "STS"', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\master\\ajukansiswa.php', 131)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\master\\ajukansiswa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/ajukansiswa', [], true)
+ 5 APPPATH\Controllers\Ajukanizinsiswa.php(32): view('master/ajukansiswa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Ajukanizinsiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajukanizinsiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 10:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:13:52 --> Attempt to read property "nm_siswa" on null
+in APPPATH\Controllers\Absensisiswa.php on line 447.
+ 1 APPPATH\Controllers\Absensisiswa.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_siswa" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensisiswa.php', 447)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->persiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 10:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:20:18 --> Attempt to read property "nm_siswa" on null
+in APPPATH\Controllers\Absensisiswa.php on line 447.
+ 1 APPPATH\Controllers\Absensisiswa.php(447): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_siswa" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensisiswa.php', 447)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->persiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:23:05 --> Too few arguments to function App\Models\Siswa_model::getSiswafilterkelas(), 0 passed in D:\PROJECT-CI\mustofa\app\Controllers\Absensisiswa.php on line 446 and exactly 1 expected
+in APPPATH\Models\Siswa_model.php on line 18.
+ 1 APPPATH\Controllers\Absensisiswa.php(446): App\Models\Siswa_model->getSiswafilterkelas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->persiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:29:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:29:52 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\hariansiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\hariansiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/hariansiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(89): view('print/hariansiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:29:52 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\hariansiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\hariansiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/hariansiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(89): view('print/hariansiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:29:52 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\hariansiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\hariansiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/hariansiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(89): view('print/hariansiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:29:52 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\hariansiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\hariansiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/hariansiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(89): view('print/hariansiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:30:12 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:30:12 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:30:12 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:30:12 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:32:46 --> Cannot redeclare App\Controllers\Absensisiswa::cetakpertanggal()
+in APPPATH\Controllers\Absensisiswa.php on line 376.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-03 03:32:51 --> Cannot redeclare App\Controllers\Absensisiswa::cetakpertanggal()
+in APPPATH\Controllers\Absensisiswa.php on line 376.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-03 03:32:56 --> Cannot redeclare App\Controllers\Absensisiswa::cetakpertanggal()
+in APPPATH\Controllers\Absensisiswa.php on line 376.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-03 03:32:59 --> Cannot redeclare App\Controllers\Absensisiswa::cetakpertanggal()
+in APPPATH\Controllers\Absensisiswa.php on line 376.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-03 03:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:36:39 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:36:39 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 03:36:40 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-03 03:36:40 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:36:48 --> Too few arguments to function App\Models\Siswa_model::getSiswafilterkelas(), 0 passed in D:\PROJECT-CI\mustofa\app\Controllers\Absensisiswa.php on line 260 and exactly 1 expected
+in APPPATH\Models\Siswa_model.php on line 18.
+ 1 APPPATH\Controllers\Absensisiswa.php(260): App\Models\Siswa_model->getSiswafilterkelas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->pertanggalsiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:42:16 --> Too few arguments to function App\Models\Siswa_model::getSiswafilterkelas(), 0 passed in D:\PROJECT-CI\mustofa\app\Controllers\Absensisiswa.php on line 362 and exactly 1 expected
+in APPPATH\Models\Siswa_model.php on line 18.
+ 1 APPPATH\Controllers\Absensisiswa.php(362): App\Models\Siswa_model->getSiswafilterkelas()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggalsiswa()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:42:42 --> Attempt to read property "nm_siswa" on null
+in APPPATH\Controllers\Absensisiswa.php on line 359.
+ 1 APPPATH\Controllers\Absensisiswa.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_siswa" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensisiswa.php', 359)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggalsiswa('main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:42:43 --> Attempt to read property "nm_siswa" on null
+in APPPATH\Controllers\Absensisiswa.php on line 359.
+ 1 APPPATH\Controllers\Absensisiswa.php(359): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nm_siswa" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensisiswa.php', 359)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggalsiswa('main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-03 03:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-03 03:45:15 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-03 03:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 03:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 04:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 04:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 04:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 04:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

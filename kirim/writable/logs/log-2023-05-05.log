@@ -1,0 +1,753 @@
+CRITICAL - 2023-05-05 00:58:48 --> end() expects parameter 1 to be array, string given
+in APPPATH\Views\chart\dashboard.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'end() expects parameter 1 to be array, string given', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 191, [...])
+ 2 APPPATH\Views\chart\dashboard.php(191): end('Bojonegoro')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 01:00:55 --> end() expects parameter 1 to be array, string given
+in APPPATH\Views\chart\dashboard.php on line 191.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'end() expects parameter 1 to be array, string given', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 191, [...])
+ 2 APPPATH\Views\chart\dashboard.php(191): end('Bojonegoro')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 6 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+ERROR - 2023-05-05 01:51:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by nm_kabupaten DESC' at line 1 in D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nm_kabup...', 0)
+#1 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nm_kabup...')
+#2 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nm_kabup...')
+#3 D:\PROJECT-CI\pemilu\app\Views\chart\dashboard.php(189): CodeIgniter\Database\BaseConnection->query('SELECT nm_kabup...')
+#4 D:\PROJECT-CI\pemilu\system\View\View.php(213): include('D:\\PROJECT-CI\\p...')
+#5 D:\PROJECT-CI\pemilu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\pemilu\system\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', Array, true)
+#7 D:\PROJECT-CI\pemilu\app\Controllers\Home.php(25): view('chart/dashboard', Array)
+#8 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\pemilu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\pemilu\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\p...')
+#13 {main}
+CRITICAL - 2023-05-05 01:51:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by nm_kabupaten DESC' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 4 APPPATH\Views\chart\dashboard.php(189): CodeIgniter\Database\BaseConnection->query('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+ERROR - 2023-05-05 01:52:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by nm_kabupaten DESC' at line 1 in D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nm_kabup...', 0)
+#1 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nm_kabup...')
+#2 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nm_kabup...')
+#3 D:\PROJECT-CI\pemilu\app\Views\chart\dashboard.php(189): CodeIgniter\Database\BaseConnection->query('SELECT nm_kabup...')
+#4 D:\PROJECT-CI\pemilu\system\View\View.php(213): include('D:\\PROJECT-CI\\p...')
+#5 D:\PROJECT-CI\pemilu\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\pemilu\system\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', Array, true)
+#7 D:\PROJECT-CI\pemilu\app\Controllers\Home.php(25): view('chart/dashboard', Array)
+#8 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\pemilu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\pemilu\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\p...')
+#13 {main}
+CRITICAL - 2023-05-05 01:52:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'order by nm_kabupaten DESC' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 4 APPPATH\Views\chart\dashboard.php(189): CodeIgniter\Database\BaseConnection->query('SELECT nm_kabupaten FROM t_kabupaten  LIMIT 1 order by nm_kabupaten DESC')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 8 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+INFO - 2023-05-05 01:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 01:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 02:09:21 --> Undefined index: id_kabupaten
+in APPPATH\Views\master\kecamatan.php on line 90.
+ 1 APPPATH\Views\master\kecamatan.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_kabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\master\\kecamatan.php', 90, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\master\\kecamatan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/kecamatan', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(21): view('master/kecamatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Kecamatan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+INFO - 2023-05-05 02:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 02:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 02:36:26 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:38:04 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:38:32 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:39:51 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:40:12 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:40:13 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:40:28 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:40:53 --> Undefined variable: getHasilkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getHasilkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:41:34 --> Undefined variable: getkabupaten
+in APPPATH\Views\chart\dashboard.php on line 233.
+ 1 APPPATH\Views\chart\dashboard.php(233): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getkabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 233, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:41:40 --> Trying to get property 'jml_kec' of non-object
+in APPPATH\Views\chart\dashboard.php on line 238.
+ 1 APPPATH\Views\chart\dashboard.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'jml_kec\' of non-object', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 238, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 02:54:55 --> Undefined variable: getKabupaten
+in APPPATH\Views\home.php on line 135.
+ 1 APPPATH\Views\home.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getKabupaten', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 03:01:06 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Views\home.php on line 140.
+ 1 APPPATH\Views\home.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 140, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 03:21:07 --> Undefined variable: nm_kecamatan
+in APPPATH\Views\home.php on line 168.
+ 1 APPPATH\Views\home.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nm_kecamatan', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 168, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 03:22:01 --> Undefined variable: nm_kecamatan
+in APPPATH\Views\home.php on line 170.
+ 1 APPPATH\Views\home.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nm_kecamatan', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 170, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+INFO - 2023-05-05 03:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-05 03:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 12:20:07 --> Undefined variable: a
+in APPPATH\Views\chart\dashboard.php on line 393.
+ 1 APPPATH\Views\chart\dashboard.php(393): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: a', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 393, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 12:47:10 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\chart\dashboard.php on line 396.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 12:50:17 --> Cannot use object of type stdClass as array
+in APPPATH\Views\chart\dashboard.php on line 394.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 12:51:37 --> Cannot use object of type stdClass as array
+in APPPATH\Views\chart\dashboard.php on line 394.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 12:53:01 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\chart\dashboard.php on line 397.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 4 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:00:52 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 441.
+ 1 APPPATH\Views\chart\dashboard.php(441): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 441, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:01:39 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 441.
+ 1 APPPATH\Views\chart\dashboard.php(441): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 441, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:02:01 --> syntax error, unexpected 'foreach' (T_FOREACH)
+in APPPATH\Views\chart\dashboard.php on line 442.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:03:37 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 471.
+ 1 APPPATH\Views\chart\dashboard.php(471): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 471, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:05:17 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 473.
+ 1 APPPATH\Views\chart\dashboard.php(473): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 473, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:05:19 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 473.
+ 1 APPPATH\Views\chart\dashboard.php(473): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 473, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:05:44 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 473.
+ 1 APPPATH\Views\chart\dashboard.php(473): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 473, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:05:52 --> Undefined property: stdClass::$jml_kec
+in APPPATH\Views\chart\dashboard.php on line 473.
+ 1 APPPATH\Views\chart\dashboard.php(473): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_kec', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php', 473, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\chart\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('chart/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('chart/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+INFO - 2023-05-05 13:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-05 13:43:47 --> Division by zero
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:50:13 --> Object of class stdClass could not be converted to number
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to number', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:50:32 --> Object of class stdClass could not be converted to number
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to number', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:52:57 --> Object of class stdClass could not be converted to number
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to number', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:53:11 --> Object of class stdClass could not be converted to number
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to number', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:53:16 --> Object of class stdClass could not be converted to number
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to number', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:55:41 --> Division by zero
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:56:50 --> Undefined variable: hsl_kab
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: hsl_kab', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 13:57:07 --> Division by zero
+in APPPATH\Views\home.php on line 181.
+ 1 APPPATH\Views\home.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php', 181, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 5 APPPATH\Controllers\Home.php(23): view('home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 14:08:24 --> Undefined variable: db
+in APPPATH\Views\report\reporttps.php on line 76.
+ 1 APPPATH\Views\report\reporttps.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php', 76, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/Reporttps', [], true)
+ 5 APPPATH\Controllers\Reporttps.php(24): view('report/Reporttps', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reporttps->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporttps))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 14:09:21 --> Undefined variable: db
+in APPPATH\Views\report\reporttps.php on line 77.
+ 1 APPPATH\Views\report\reporttps.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/Reporttps', [], true)
+ 5 APPPATH\Controllers\Reporttps.php(24): view('report/Reporttps', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reporttps->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporttps))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 14:11:05 --> Undefined variable: db
+in APPPATH\Views\report\reporttps.php on line 77.
+ 1 APPPATH\Views\report\reporttps.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: db', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reporttps.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/Reporttps', [], true)
+ 5 APPPATH\Controllers\Reporttps.php(24): view('report/Reporttps', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reporttps->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reporttps))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+ERROR - 2023-05-05 14:46:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`asc` ASC' at line 6 in D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_tps`....', 0)
+#1 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_tps`....')
+#2 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_tps`....')
+#3 D:\PROJECT-CI\pemilu\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_tps`....', Array, false)
+#4 D:\PROJECT-CI\pemilu\app\Models\Reportdesa_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\pemilu\app\Controllers\Reportdesa.php(15): App\Models\Reportdesa_model->getReportdesa(NULL)
+#6 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(934): App\Controllers\Reportdesa->index()
+#7 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportdesa))
+#8 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\pemilu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\pemilu\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\p...')
+#11 {main}
+CRITICAL - 2023-05-05 14:46:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`asc` ASC' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_tps`.`id_kabupaten` as `id_kabupaten`, `t_tps`.`id_kecamatan` as `id_kecamatan`, `t_tps`.`id_tps` as `id_tps`, `t_tps`.`nm_tps` as `nm_tps`, `t_tps`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`
+FROM `t_tps`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+JOIN `t_desa` ON `t_desa`.`id_desa` = `t_tps`.`id_desa`
+WHERE `t_tps`.`id_kecamatan` IS NULL
+ORDER BY `t_desa`.`nm_desa` `asc` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_tps`.`id_kabupaten` as `id_kabupaten`, `t_tps`.`id_kecamatan` as `id_kecamatan`, `t_tps`.`id_tps` as `id_tps`, `t_tps`.`nm_tps` as `nm_tps`, `t_tps`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`
+FROM `t_tps`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+JOIN `t_desa` ON `t_desa`.`id_desa` = `t_tps`.`id_desa`
+WHERE `t_tps`.`id_kecamatan` IS NULL
+ORDER BY `t_desa`.`nm_desa` `asc` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_tps`.`id_kabupaten` as `id_kabupaten`, `t_tps`.`id_kecamatan` as `id_kecamatan`, `t_tps`.`id_tps` as `id_tps`, `t_tps`.`nm_tps` as `nm_tps`, `t_tps`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`
+FROM `t_tps`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+JOIN `t_desa` ON `t_desa`.`id_desa` = `t_tps`.`id_desa`
+WHERE `t_tps`.`id_kecamatan` IS NULL
+ORDER BY `t_desa`.`nm_desa` `asc` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_tps`.`id_kabupaten` as `id_kabupaten`, `t_tps`.`id_kecamatan` as `id_kecamatan`, `t_tps`.`id_tps` as `id_tps`, `t_tps`.`nm_tps` as `nm_tps`, `t_tps`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`
+FROM `t_tps`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+JOIN `t_desa` ON `t_desa`.`id_desa` = `t_tps`.`id_desa`
+WHERE `t_tps`.`id_kecamatan` IS NULL
+ORDER BY `t_desa`.`nm_desa` `asc` ASC', [], false)
+ 5 APPPATH\Models\Reportdesa_model.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reportdesa.php(15): App\Models\Reportdesa_model->getReportdesa(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportdesa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportdesa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+CRITICAL - 2023-05-05 14:47:07 --> Undefined index: nm_kecamatan
+in APPPATH\Views\report\reportdesa.php on line 77.
+ 1 APPPATH\Views\report\reportdesa.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nm_kecamatan', 'D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reportdesa.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\pemilu\\app\\Views\\report\\reportdesa.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/Reportdesa', [], true)
+ 5 APPPATH\Controllers\Reportdesa.php(23): view('report/Reportdesa', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportdesa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportdesa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+ERROR - 2023-05-05 14:51:26 --> mysqli_sql_exception: Unknown column 't_tps.id_kecamatan' in 'on clause' in D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_desa`...', 0)
+#1 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_desa`...')
+#2 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_desa`...')
+#3 D:\PROJECT-CI\pemilu\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_desa`...', Array, false)
+#4 D:\PROJECT-CI\pemilu\app\Models\Reportdesa_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\pemilu\app\Controllers\Reportdesa.php(15): App\Models\Reportdesa_model->getReportdesa('2')
+#6 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(934): App\Controllers\Reportdesa->index()
+#7 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportdesa))
+#8 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\pemilu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\pemilu\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\p...')
+#11 {main}
+CRITICAL - 2023-05-05 14:51:26 --> Unknown column 't_tps.id_kecamatan' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_desa`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`
+FROM `t_desa`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+WHERE `t_desa`.`id_kecamatan` = \'2\'
+ORDER BY `t_desa`.`nm_desa` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_desa`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`
+FROM `t_desa`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+WHERE `t_desa`.`id_kecamatan` = \'2\'
+ORDER BY `t_desa`.`nm_desa` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_desa`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`
+FROM `t_desa`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+WHERE `t_desa`.`id_kecamatan` = \'2\'
+ORDER BY `t_desa`.`nm_desa` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_desa`.`id_desa` as `id_desa`, `t_desa`.`nm_desa` as `nm_desa`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`
+FROM `t_desa`
+JOIN `t_kecamatan` ON `t_kecamatan`.`id_kecamatan` = `t_tps`.`id_kecamatan`
+WHERE `t_desa`.`id_kecamatan` = :t_desa.id_kecamatan:
+ORDER BY `t_desa`.`nm_desa` ASC', [...], false)
+ 5 APPPATH\Models\Reportdesa_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reportdesa.php(15): App\Models\Reportdesa_model->getReportdesa('2')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportdesa->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportdesa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')
+ERROR - 2023-05-05 15:05:05 --> mysqli_sql_exception: Unknown column 't_kabuapten.nm_kabupaten' in 'field list' in D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\pemilu\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_kecam...', 0)
+#1 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_kecam...')
+#2 D:\PROJECT-CI\pemilu\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_kecam...')
+#3 D:\PROJECT-CI\pemilu\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_kecam...', Array, false)
+#4 D:\PROJECT-CI\pemilu\app\Models\Reportkecamatan_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\pemilu\app\Controllers\Reportkecamatan.php(15): App\Models\Reportkecamatan_model->getReportkecamatan(NULL)
+#6 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(934): App\Controllers\Reportkecamatan->index()
+#7 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportkecamatan))
+#8 D:\PROJECT-CI\pemilu\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\pemilu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\pemilu\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\p...')
+#11 {main}
+CRITICAL - 2023-05-05 15:05:05 --> Unknown column 't_kabuapten.nm_kabupaten' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `t_kecamatan`.`id_kecamatan` as `id_kecamatan`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`, `t_kabuapten`.`nm_kabupaten` as `nm_kabupaten`
+FROM `t_kecamatan`
+JOIN `t_kabupaten` ON `t_kabupaten`.`id_kabupaten` = `t_kecamatan`.`id_kabupaten`
+WHERE `t_kecamatan`.`id_kabupaten` IS NULL
+ORDER BY `t_kecamatan`.`nm_kecamatan` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t_kecamatan`.`id_kecamatan` as `id_kecamatan`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`, `t_kabuapten`.`nm_kabupaten` as `nm_kabupaten`
+FROM `t_kecamatan`
+JOIN `t_kabupaten` ON `t_kabupaten`.`id_kabupaten` = `t_kecamatan`.`id_kabupaten`
+WHERE `t_kecamatan`.`id_kabupaten` IS NULL
+ORDER BY `t_kecamatan`.`nm_kecamatan` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t_kecamatan`.`id_kecamatan` as `id_kecamatan`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`, `t_kabuapten`.`nm_kabupaten` as `nm_kabupaten`
+FROM `t_kecamatan`
+JOIN `t_kabupaten` ON `t_kabupaten`.`id_kabupaten` = `t_kecamatan`.`id_kabupaten`
+WHERE `t_kecamatan`.`id_kabupaten` IS NULL
+ORDER BY `t_kecamatan`.`nm_kecamatan` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `t_kecamatan`.`id_kecamatan` as `id_kecamatan`, `t_kecamatan`.`nm_kecamatan` as `nm_kecamatan`, `t_kabuapten`.`nm_kabupaten` as `nm_kabupaten`
+FROM `t_kecamatan`
+JOIN `t_kabupaten` ON `t_kabupaten`.`id_kabupaten` = `t_kecamatan`.`id_kabupaten`
+WHERE `t_kecamatan`.`id_kabupaten` IS NULL
+ORDER BY `t_kecamatan`.`nm_kecamatan` ASC', [], false)
+ 5 APPPATH\Models\Reportkecamatan_model.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Reportkecamatan.php(15): App\Models\Reportkecamatan_model->getReportkecamatan(null)
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reportkecamatan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reportkecamatan))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\pemilu\\public\\index.php')

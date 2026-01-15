@@ -1,0 +1,92 @@
+INFO - 2024-02-05 13:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:21:23 --> Undefined variable: nm
+in APPPATH\Views\report\pertanggaluser.php on line 77.
+ 1 APPPATH\Views\report\pertanggaluser.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: nm', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php', 77, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggaluser', [], true)
+ 5 APPPATH\Controllers\Absensi.php(210): view('report/pertanggaluser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->pertanggaluser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:22:00 --> Undefined variable: Jenis
+in APPPATH\Views\report\pertanggaluser.php on line 87.
+ 1 APPPATH\Views\report\pertanggaluser.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Jenis', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php', 87, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggaluser', [], true)
+ 5 APPPATH\Controllers\Absensi.php(210): view('report/pertanggaluser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->pertanggaluser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:25:47 --> Undefined index: nomor_absensi
+in APPPATH\Views\report\pertanggaluser.php on line 114.
+ 1 APPPATH\Views\report\pertanggaluser.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nomor_absensi', 'D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php', 114, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\Absensi\\app\\Views\\report\\pertanggaluser.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/pertanggaluser', [], true)
+ 5 APPPATH\Controllers\Absensi.php(210): view('report/pertanggaluser', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->pertanggaluser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:44:20 --> Trying to get property 'nama_ptk' of non-object
+in APPPATH\Controllers\Absensi.php on line 236.
+ 1 APPPATH\Controllers\Absensi.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_ptk\' of non-object', 'D:\\PROJECT-CI\\Absensi\\app\\Controllers\\Absensi.php', 236, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggaluser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:47:19 --> Trying to get property 'nama_ptk' of non-object
+in APPPATH\Controllers\Absensi.php on line 236.
+ 1 APPPATH\Controllers\Absensi.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_ptk\' of non-object', 'D:\\PROJECT-CI\\Absensi\\app\\Controllers\\Absensi.php', 236, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggaluser('main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-05 13:47:20 --> Trying to get property 'nama_ptk' of non-object
+in APPPATH\Controllers\Absensi.php on line 236.
+ 1 APPPATH\Controllers\Absensi.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'nama_ptk\' of non-object', 'D:\\PROJECT-CI\\Absensi\\app\\Controllers\\Absensi.php', 236, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggaluser('main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\Absensi\\public\\index.php')
+INFO - 2024-02-05 13:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-05 13:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

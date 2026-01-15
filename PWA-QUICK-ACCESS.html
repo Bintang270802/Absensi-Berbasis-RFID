@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Quick Access - Sekolah Ulil Albab</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .subtitle {
+            color: #666;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 16px;
+        }
+        
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .link-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .link-card:hover {
+            border-color: #667eea;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+        
+        .link-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        
+        .link-card h3 {
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+        
+        .link-card p {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .info-box h3 {
+            color: #1976D2;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .info-box p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .warning-box strong {
+            color: #856404;
+        }
+        
+        .warning-box p {
+            color: #856404;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        
+        .status {
+            text-align: center;
+            padding: 15px;
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 8px;
+            color: #155724;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 PWA Quick Access</h1>
+        <p class="subtitle">Akses cepat ke semua fitur PWA</p>
+        
+        <div class="status">
+            ✅ PWA Implementation Complete - 22 Files Created
+        </div>
+        
+        <div class="info-box">
+            <h3>📌 Cara Menggunakan:</h3>
+            <p>Klik salah satu link di bawah untuk mengakses fitur PWA. Pastikan Apache/XAMPP sudah berjalan.</p>
+        </div>
+        
+        <div class="links-grid">
+            <a href="http://localhost/sekolah_ulil_albab/" class="link-card">
+                <div class="link-icon">🏠</div>
+                <h3>Aplikasi Utama</h3>
+                <p>Buka aplikasi Sekolah Ulil Albab</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/pwa/download" class="link-card">
+                <div class="link-icon">📥</div>
+                <h3>Download PWA</h3>
+                <p>Download package atau offline installer</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/pwa/download/package" class="link-card">
+                <div class="link-icon">📦</div>
+                <h3>Download Package</h3>
+                <p>Download PWA package lengkap (ZIP)</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/pwa/download/offline-installer" class="link-card">
+                <div class="link-icon">💿</div>
+                <h3>Offline Installer</h3>
+                <p>Download installer offline</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/pwa/install" class="link-card">
+                <div class="link-icon">📱</div>
+                <h3>Panduan Install</h3>
+                <p>Cara install PWA di berbagai platform</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/pwa/status" class="link-card">
+                <div class="link-icon">📊</div>
+                <h3>PWA Status</h3>
+                <p>Check status PWA (JSON)</p>
+            </a>
+            
+            <a href="http://localhost/sekolah_ulil_albab/offline" class="link-card">
+                <div class="link-icon">📡</div>
+                <h3>Offline Page</h3>
+                <p>Preview halaman offline</p>
+            </a>
+            
+            <a href="generate-icons.html" class="link-card">
+                <div class="link-icon">🎨</div>
+                <h3>Icon Generator</h3>
+                <p>Generate icon PWA berbagai ukuran</p>
+            </a>
+        </div>
+        
+        <div class="warning-box">
+            <strong>⚠️ Catatan Penting:</strong>
+            <p>
+                • Pastikan XAMPP Apache sudah running<br>
+                • Jika port berbeda, ubah "localhost" menjadi "localhost:PORT"<br>
+                • Untuk production, ganti dengan domain Anda<br>
+                • Icon PWA harus sudah di-generate sebelum download
+            </p>
+        </div>
+        
+        <div class="info-box" style="margin-top: 30px;">
+            <h3>📚 Dokumentasi:</h3>
+            <p>
+                • <strong>Quick Start:</strong> QUICK_START_PWA.md<br>
+                • <strong>Download Guide:</strong> PWA_DOWNLOAD_GUIDE.md<br>
+                • <strong>Setup Guide:</strong> PWA_SETUP.md<br>
+                • <strong>Cara Akses:</strong> CARA_AKSES_DOWNLOAD.txt<br>
+                • <strong>Ringkasan:</strong> RINGKASAN_PWA.md
+            </p>
+        </div>
+    </div>
+    
+    <script>
+        // Check if running on localhost
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            const baseUrl = window.location.origin + window.location.pathname.replace('PWA-QUICK-ACCESS.html', '');
+            
+            // Update all links
+            document.querySelectorAll('.link-card').forEach(link => {
+                const href = link.getAttribute('href');
+                if (href.startsWith('http://localhost/')) {
+                    const path = href.replace('http://localhost/sekolah_ulil_albab/', '');
+                    link.setAttribute('href', baseUrl + path);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

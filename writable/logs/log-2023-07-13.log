@@ -1,0 +1,178 @@
+INFO - 2023-07-13 13:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 14:30:36 --> mysqli_sql_exception: Table 'asset.karyawan' doesn't exist in D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp)...', 0)
+#1 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp)...')
+#2 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp)...')
+#3 D:\PROJECT-CI\asset\app\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp)...')
+#4 D:\PROJECT-CI\asset\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#5 D:\PROJECT-CI\asset\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\asset\system\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', Array, true)
+#7 D:\PROJECT-CI\asset\app\Controllers\Karyawan.php(31): view('master/karyawan', Array)
+#8 D:\PROJECT-CI\asset\system\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+#9 D:\PROJECT-CI\asset\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 D:\PROJECT-CI\asset\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\asset\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\asset\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#13 {main}
+CRITICAL - 2023-07-13 14:30:36 --> Table 'asset.karyawan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp) as nrp FROM karyawan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp) as nrp FROM karyawan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp) as nrp FROM karyawan')
+ 4 APPPATH\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp) as nrp FROM karyawan')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\asset\\app\\Views\\master\\karyawan.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', [], true)
+ 8 APPPATH\Controllers\Karyawan.php(31): view('master/karyawan', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\asset\\public\\index.php')
+INFO - 2023-07-13 14:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 14:31:08 --> mysqli_sql_exception: Table 'asset.karyawan' doesn't exist in D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp)...', 0)
+#1 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp)...')
+#2 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp)...')
+#3 D:\PROJECT-CI\asset\app\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp)...')
+#4 D:\PROJECT-CI\asset\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#5 D:\PROJECT-CI\asset\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\asset\system\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', Array, true)
+#7 D:\PROJECT-CI\asset\app\Controllers\Karyawan.php(31): view('master/karyawan', Array)
+#8 D:\PROJECT-CI\asset\system\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+#9 D:\PROJECT-CI\asset\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 D:\PROJECT-CI\asset\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\asset\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\asset\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#13 {main}
+CRITICAL - 2023-07-13 14:31:08 --> Table 'asset.karyawan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp) as nrp FROM karyawan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp) as nrp FROM karyawan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp) as nrp FROM karyawan')
+ 4 APPPATH\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp) as nrp FROM karyawan')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\asset\\app\\Views\\master\\karyawan.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', [], true)
+ 8 APPPATH\Controllers\Karyawan.php(31): view('master/karyawan', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\asset\\public\\index.php')
+INFO - 2023-07-13 14:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 14:31:23 --> mysqli_sql_exception: Table 'asset.karyawan' doesn't exist in D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\asset\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp)...', 0)
+#1 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp)...')
+#2 D:\PROJECT-CI\asset\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp)...')
+#3 D:\PROJECT-CI\asset\app\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp)...')
+#4 D:\PROJECT-CI\asset\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#5 D:\PROJECT-CI\asset\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\PROJECT-CI\asset\system\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', Array, true)
+#7 D:\PROJECT-CI\asset\app\Controllers\Karyawan.php(31): view('master/karyawan', Array)
+#8 D:\PROJECT-CI\asset\system\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+#9 D:\PROJECT-CI\asset\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#10 D:\PROJECT-CI\asset\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\PROJECT-CI\asset\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\PROJECT-CI\asset\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#13 {main}
+CRITICAL - 2023-07-13 14:31:23 --> Table 'asset.karyawan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT max(nrp) as nrp FROM karyawan', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT max(nrp) as nrp FROM karyawan')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT max(nrp) as nrp FROM karyawan')
+ 4 APPPATH\Views\master\karyawan.php(173): CodeIgniter\Database\BaseConnection->query('SELECT max(nrp) as nrp FROM karyawan')
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\asset\\app\\Views\\master\\karyawan.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/karyawan', [], true)
+ 8 APPPATH\Controllers\Karyawan.php(31): view('master/karyawan', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Karyawan->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\asset\\public\\index.php')
+INFO - 2023-07-13 14:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:32:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 14:45:46 --> Undefined property: stdClass::$nrp
+in APPPATH\Views\master\barang.php on line 182.
+ 1 APPPATH\Views\master\barang.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nrp', 'D:\\PROJECT-CI\\asset\\app\\Views\\master\\barang.php', 182, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\asset\\app\\Views\\master\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(33): view('master/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\asset\\public\\index.php')
+INFO - 2023-07-13 14:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:48:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 14:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 15:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

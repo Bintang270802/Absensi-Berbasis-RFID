@@ -1,0 +1,837 @@
+INFO - 2023-08-27 03:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:50:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 03:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 04:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 05:36:56 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 56.
+ 1 APPPATH\Views\func.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\form\\app\\Views\\func.php', 56, [...])
+ 2 APPPATH\Views\master\formbasic.php(196): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formbasic.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formbasic', [], true)
+ 6 APPPATH\Controllers\Form.php(122): view('master/formbasic', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->basic()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 05:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 05:45:11 --> Undefined variable: tgl_akhir
+in APPPATH\Controllers\Form.php on line 116.
+ 1 APPPATH\Controllers\Form.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl_akhir', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 116, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->basic()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 05:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 05:45:15 --> Undefined variable: tgl_akhir
+in APPPATH\Controllers\Form.php on line 116.
+ 1 APPPATH\Controllers\Form.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl_akhir', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 116, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->basic()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 05:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:57:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 05:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:12:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 06:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 07:22:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Form.php on line 81.
+ 1 APPPATH\Controllers\Form.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->basic()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 07:25:26 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Controllers\Form.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 82, [...])
+ 2 APPPATH\Controllers\Form.php(82): count(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->basic()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:37:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-27 07:40:33 --> mysqli_sql_exception: Unknown column 'kode_form' in 'field list' in D:\PROJECT-CI\form\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\form\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `sa...', 0)
+#1 D:\PROJECT-CI\form\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sa...')
+#2 D:\PROJECT-CI\form\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sa...')
+#3 D:\PROJECT-CI\form\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sa...', Array, false)
+#4 D:\PROJECT-CI\form\app\Models\Saldo_model.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\form\app\Controllers\Form.php(334): App\Models\Saldo_model->saveSaldo(Array)
+#6 D:\PROJECT-CI\form\system\CodeIgniter.php(934): App\Controllers\Form->addbasic()
+#7 D:\PROJECT-CI\form\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#8 D:\PROJECT-CI\form\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\form\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\form\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\f...')
+#11 {main}
+CRITICAL - 2023-08-27 07:40:33 --> Unknown column 'kode_form' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `saldo` (`id_customer`, `kode_form`, `title_form`, `tgl_buat`, `tgl_akhir`, `sts_form`, `link`) VALUES (\'1\', \'r24XaItIJEs\', \'DATA SISWA\', \'2023-08-27\', \'2024-02-23\', 2, \'https://docs.google.com/spreadsheets/d/e/2PACX-1vTIm1AVvu6o7f_VFwZUGMpQFysDsGo2D3OnQn6Acq5DHw9M6lUIsstPvxvN1q51C7LqSfStybN5TV75/pubhtml?gid=0&single=true\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `saldo` (`id_customer`, `kode_form`, `title_form`, `tgl_buat`, `tgl_akhir`, `sts_form`, `link`) VALUES (\'1\', \'r24XaItIJEs\', \'DATA SISWA\', \'2023-08-27\', \'2024-02-23\', 2, \'https://docs.google.com/spreadsheets/d/e/2PACX-1vTIm1AVvu6o7f_VFwZUGMpQFysDsGo2D3OnQn6Acq5DHw9M6lUIsstPvxvN1q51C7LqSfStybN5TV75/pubhtml?gid=0&single=true\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `saldo` (`id_customer`, `kode_form`, `title_form`, `tgl_buat`, `tgl_akhir`, `sts_form`, `link`) VALUES (\'1\', \'r24XaItIJEs\', \'DATA SISWA\', \'2023-08-27\', \'2024-02-23\', 2, \'https://docs.google.com/spreadsheets/d/e/2PACX-1vTIm1AVvu6o7f_VFwZUGMpQFysDsGo2D3OnQn6Acq5DHw9M6lUIsstPvxvN1q51C7LqSfStybN5TV75/pubhtml?gid=0&single=true\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `saldo` (`id_customer`, `kode_form`, `title_form`, `tgl_buat`, `tgl_akhir`, `sts_form`, `link`) VALUES (:id_customer:, :kode_form:, :title_form:, :tgl_buat:, :tgl_akhir:, :sts_form:, :link:)', [...], false)
+ 5 APPPATH\Models\Saldo_model.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Form.php(334): App\Models\Saldo_model->saveSaldo([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->addbasic()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 07:42:38 --> array_combine(): Both parameters should have an equal number of elements
+in APPPATH\Views\master\formresult.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine(): Both parameters should have an equal number of elements', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 21, [...])
+ 2 APPPATH\Views\master\formresult.php(21): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 6 APPPATH\Controllers\Form.php(190): view('master/formresult', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 07:42:47 --> array_combine(): Both parameters should have an equal number of elements
+in APPPATH\Views\master\formresult.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine(): Both parameters should have an equal number of elements', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 21, [...])
+ 2 APPPATH\Views\master\formresult.php(21): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 6 APPPATH\Controllers\Form.php(190): view('master/formresult', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 07:44:45 --> array_combine(): Both parameters should have an equal number of elements
+in APPPATH\Views\master\formresult.php on line 21.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_combine(): Both parameters should have an equal number of elements', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 21, [...])
+ 2 APPPATH\Views\master\formresult.php(21): array_combine([...], [...])
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 6 APPPATH\Controllers\Form.php(190): view('master/formresult', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 07:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 08:00:57 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\master\listform.php on line 162.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/listform', [], true)
+ 3 APPPATH\Controllers\Form.php(154): view('master/listform', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->list()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 08:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 08:16:26 --> Undefined index: label
+in APPPATH\Views\master\listform.php on line 136.
+ 1 APPPATH\Views\master\listform.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\listform.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\listform.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/listform', [], true)
+ 5 APPPATH\Controllers\Form.php(154): view('master/listform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 08:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 08:16:54 --> Cannot use object of type stdClass as array
+in APPPATH\Views\master\listform.php on line 136.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/listform', [], true)
+ 4 APPPATH\Controllers\Form.php(154): view('master/listform', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->list()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 08:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 08:18:10 --> Cannot use object of type stdClass as array
+in APPPATH\Views\master\listform.php on line 136.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/listform', [], true)
+ 4 APPPATH\Controllers\Form.php(154): view('master/listform', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->list()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 08:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:55:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 08:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:12:10 --> Undefined property: stdClass::$id_isi_form
+in APPPATH\Views\master\listform.php on line 157.
+ 1 APPPATH\Views\master\listform.php(157): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_isi_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\listform.php', 157, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\listform.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/listform', [], true)
+ 5 APPPATH\Controllers\Form.php(156): view('master/listform', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->list()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:21:06 --> fopen(https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&amp;single=true&amp;output=csv): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+in APPPATH\Views\func.php on line 86.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&amp;single=true&amp;output=csv): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+', 'D:\\PROJECT-CI\\form\\app\\Views\\func.php', 86, [...])
+ 2 APPPATH\Views\func.php(86): fopen('https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&single=true&output=csv', 'r')
+ 3 APPPATH\Views\master\form.php(267): csvToArray('https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&single=true&output=csv', ',')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 7 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:29:09 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 285.
+ 1 APPPATH\Views\master\form.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 285, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:30:08 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 285.
+ 1 APPPATH\Views\master\form.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 285, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:30:48 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 285.
+ 1 APPPATH\Views\master\form.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 285, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:31:24 --> fopen(https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&amp;single=true&amp;output=csv): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+in APPPATH\Views\func.php on line 86.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&amp;single=true&amp;output=csv): failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+', 'D:\\PROJECT-CI\\form\\app\\Views\\func.php', 86, [...])
+ 2 APPPATH\Views\func.php(86): fopen('https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&single=true&output=csv', 'r')
+ 3 APPPATH\Views\master\form.php(274): csvToArray('https://docs.google.com/spreadsheets/d/e/2PACX-1vQv8_SmvKXCjuRrPk-qvPqjIyV5fES7j6O38dwMmTA8ffvoEW0udruK9alXKOXhF90MlwKzoPvk6FGp/pub?gid=0&single=true&output=csv', ',')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 7 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:32:37 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 285.
+ 1 APPPATH\Views\master\form.php(285): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 285, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:34:34 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 277.
+ 1 APPPATH\Views\master\form.php(277): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 277, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:34:40 --> Undefined index: title_form
+in APPPATH\Views\master\form.php on line 277.
+ 1 APPPATH\Views\master\form.php(277): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: title_form', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 277, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:35:24 --> Undefined variable: data_count
+in APPPATH\Views\master\form.php on line 276.
+ 1 APPPATH\Views\master\form.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_count', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 276, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:35:55 --> Undefined variable: data_count
+in APPPATH\Views\master\form.php on line 276.
+ 1 APPPATH\Views\master\form.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_count', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php', 276, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/form', [], true)
+ 5 APPPATH\Controllers\Form.php(96): view('master/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:36:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 09:49:54 --> Undefined offset: 2
+in APPPATH\Views\func.php on line 56.
+ 1 APPPATH\Views\func.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 2', 'D:\\PROJECT-CI\\form\\app\\Views\\func.php', 56, [...])
+ 2 APPPATH\Views\master\formresult.php(94): formatTanggal('')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 6 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 09:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 09:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:21:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:32:51 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 136.
+ 1 APPPATH\Views\master\formresult.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:35:31 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 136.
+ 1 APPPATH\Views\master\formresult.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:54:24 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:55:26 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:57:17 --> Undefined index: Nama
+in APPPATH\Views\master\formresult.php on line 136.
+ 1 APPPATH\Views\master\formresult.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Nama', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 10:57:32 --> Undefined index: NAMA
+in APPPATH\Views\master\formresult.php on line 136.
+ 1 APPPATH\Views\master\formresult.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: NAMA', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 10:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 10:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:00:31 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:01:20 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:01:39 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:02:16 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:02:50 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:03:07 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:03:18 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:04:01 --> Undefined index: label
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: label', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:04:35 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:06:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 11:06:04 --> Undefined index: nama_field
+in APPPATH\Views\master\formresult.php on line 135.
+ 1 APPPATH\Views\master\formresult.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_field', 'D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\form\\app\\Views\\master\\formresult.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 5 APPPATH\Controllers\Form.php(245): view('master/formresult', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 11:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:10:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 11:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:02:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 12:02:01 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Form.php on line 226.
+ 1 APPPATH\Controllers\Form.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 226, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 12:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 12:03:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Form.php on line 226.
+ 1 APPPATH\Controllers\Form.php(226): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 226, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 12:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 12:05:55 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Form.php on line 494.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Form/updateisi')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Form/updateisi')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Form/updateisi')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+CRITICAL - 2023-08-27 12:13:17 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Form.php on line 494.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Form/')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Form/')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Form/')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+CRITICAL - 2023-08-27 12:13:21 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Controllers\Form.php on line 494.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Form/')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Form/')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Form/')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 12:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 12:14:14 --> syntax error, unexpected 'use' (T_USE)
+in APPPATH\Views\master\formresult.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/formresult', [], true)
+ 3 APPPATH\Controllers\Form.php(247): view('master/formresult', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->result()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 12:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 12:33:10 --> Class 'ApiSpreadsheets\Spreadsheet' not found
+in APPPATH\Controllers\Form.php on line 499.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->updateisi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+CRITICAL - 2023-08-27 12:35:34 --> Class 'ApiSpreadsheets\Spreadsheet' not found
+in APPPATH\Controllers\Form.php on line 500.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->updateisi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+CRITICAL - 2023-08-27 12:36:26 --> Class 'ApiSpreadsheets\Spreadsheet' not found
+in APPPATH\Controllers\Form.php on line 501.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->updateisi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+CRITICAL - 2023-08-27 12:39:14 --> Class 'ApiSpreadsheets\Spreadsheet' not found
+in APPPATH\Controllers\Form.php on line 501.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->updateisi()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')
+INFO - 2023-08-27 12:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-27 12:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-27 13:06:44 --> Undefined variable: client
+in APPPATH\Controllers\Form.php on line 494.
+ 1 APPPATH\Controllers\Form.php(494): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: client', 'D:\\PROJECT-CI\\form\\app\\Controllers\\Form.php', 494, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Form->api()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\form\\public\\index.php')

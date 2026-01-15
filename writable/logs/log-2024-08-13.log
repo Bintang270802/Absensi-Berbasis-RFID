@@ -1,0 +1,58 @@
+INFO - 2024-08-13 04:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 04:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 04:37:41 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-13 04:37:41 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-13 04:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-13 04:37:42 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func_siswa.php on line 78.
+ 1 APPPATH\Views\func_siswa.php(78): explode('-', null)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-13 04:37:42 --> Undefined array key 2
+in APPPATH\Views\func_siswa.php on line 79.
+ 1 APPPATH\Views\func_siswa.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func_siswa.php', 79)
+ 2 APPPATH\Views\print\pertanggalsiswa.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggalsiswa.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggalsiswa', [], true)
+ 6 APPPATH\Controllers\Absensisiswa.php(404): view('print/pertanggalsiswa', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')

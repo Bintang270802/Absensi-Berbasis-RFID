@@ -1,0 +1,843 @@
+INFO - 2024-05-20 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:23:32 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 03:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:26:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:42:21 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:43:12 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:47:15 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:48:06 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:49:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:49:10 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:50:30 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 03:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:50:59 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-02')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:51:05 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('67', '2024-05-03')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('67', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:52:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 03:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:52:40 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-02')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:53:03 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-12')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:53:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:53:14 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-05')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:55:42 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 268.
+ 1 APPPATH\Views\func.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 268, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-05')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:55:44 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 268.
+ 1 APPPATH\Views\func.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 268, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-05')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:58:01 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-05')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 03:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 03:59:27 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:01:09 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:06:52 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:06:54 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:11:13 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:11:32 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:11:54 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:13:51 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(638): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:15:56 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(638): sts_absen('70', '2024-05-02')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:16:19 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(638): sts_absen('70', '2024-05-06')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:17:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 04:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:17:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 04:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:20:14 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:21:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:21:13 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('67', '2024-3-28')
+ 3 APPPATH\Views\func.php(738): jumalphabln('67', 3)
+ 4 APPPATH\Views\home\chart.php(720): jumalphablnadmin(3)
+ 5 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\home\\chart.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/chart', [], true)
+ 8 APPPATH\Controllers\Home.php(52): view('home/chart')
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:22:41 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:25:35 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:25:38 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:28:01 --> Trying to get property 'JAM' of non-object
+in APPPATH\Views\func.php on line 319.
+ 1 APPPATH\Views\func.php(319): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'JAM\' of non-object', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 319, [...])
+ 2 APPPATH\Views\func.php(637): sts_absen('70', '2024-05-2')
+ 3 APPPATH\Views\report\bulanan.php(147): jumalphabln('70', '05')
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\report\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(389): view('report/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->bulanan()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 04:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 04:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:43:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 04:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:43:46 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 04:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 04:44:07 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:21:57 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-20 12:32:15 --> mysqli_sql_exception: MySQL server has gone away in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#8 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#11 {main}
+CRITICAL - 2024-05-20 12:32:16 --> MySQL server has gone away
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `r_tapel`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `r_tapel`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `r_tapel`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `r_tapel`', [], false)
+ 5 APPPATH\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+ERROR - 2024-05-20 12:32:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absen_smapare', 3306, '', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#8 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#5 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#10 {main}
+CRITICAL - 2024-05-20 12:32:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `r_tapel`', [], false)
+ 3 APPPATH\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+ERROR - 2024-05-20 12:32:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absen_smapare', 3306, '', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#8 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#5 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#10 {main}
+CRITICAL - 2024-05-20 12:32:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `r_tapel`', [], false)
+ 3 APPPATH\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+ERROR - 2024-05-20 12:32:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absen_smapare', 3306, '', 0)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#8 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\PROJECT-CI\smapare\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\PROJECT-CI\smapare\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\PROJECT-CI\smapare\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\PROJECT-CI\smapare\app\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\PROJECT-CI\smapare\app\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+#5 D:\PROJECT-CI\smapare\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#6 D:\PROJECT-CI\smapare\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#7 D:\PROJECT-CI\smapare\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\PROJECT-CI\smapare\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\PROJECT-CI\smapare\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\s...')
+#10 {main}
+CRITICAL - 2024-05-20 12:32:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `r_tapel`', [], false)
+ 3 APPPATH\Models\Tapel_model.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Cpanel.php(14): App\Models\Tapel_model->getTapel()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 12:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:34:37 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:36:18 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:37:19 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:43:34 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:43:46 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:43:54 --> cal_days_in_month(): invalid date
+in APPPATH\Views\func.php on line 818.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'cal_days_in_month(): invalid date', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 818, [...])
+ 2 APPPATH\Views\func.php(818): cal_days_in_month(0, null, '2024')
+ 3 APPPATH\Views\print\bulanan.php(63): jumterlambatbln('70', null)
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\print\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(501): view('print/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakbulanan('main.css')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+INFO - 2024-05-20 12:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:43:54 --> cal_days_in_month(): invalid date
+in APPPATH\Views\func.php on line 818.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'cal_days_in_month(): invalid date', 'D:\\PROJECT-CI\\smapare\\app\\Views\\func.php', 818, [...])
+ 2 APPPATH\Views\func.php(818): cal_days_in_month(0, null, '2024')
+ 3 APPPATH\Views\print\bulanan.php(63): jumterlambatbln('70', null)
+ 4 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\smapare\\app\\Views\\print\\bulanan.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/bulanan', [], true)
+ 7 APPPATH\Controllers\Absensi.php(501): view('print/bulanan', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakbulanan('main.js')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\smapare\\public\\index.php')
+CRITICAL - 2024-05-20 12:43:56 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:45:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:46:33 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:48:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:50:50 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:51:55 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 12:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:57:46 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 12:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 12:58:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:00:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:04:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 4194312 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:07:28 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:07:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:08:21 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:14:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:14:55 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:20:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:20:59 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:21:41 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 135168 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:24:24 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 135168 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:25:26 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:25:37 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:32:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 1052672 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:36:10 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 266240 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-20 13:36:55 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 2097160 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-20 13:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-20 13:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,226 @@
+ERROR - 2024-08-08 13:25:55 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\PROJECT-CI\mustofa\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\PROJECT-CI\mustofa\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'absen_mustofa', 3306, '', 0)
+#1 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\PROJECT-CI\mustofa\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#4 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#5 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#6 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PROJECT-CI\mustofa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\PROJECT-CI\mustofa\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\PROJECT-CI\mustofa\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\PROJECT-CI\mustofa\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FRO...')
+#3 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#4 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#5 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\PROJECT-CI\mustofa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#7 D:\PROJECT-CI\mustofa\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#8 {main}
+CRITICAL - 2024-08-08 13:25:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT file FROM t_setting_aplikasi')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:27:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-08 13:28:04 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-08 13:28:04 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-08 13:28:05 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-08 13:28:05 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\harian.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\harian.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/harian', [], true)
+ 6 APPPATH\Controllers\Absensi.php(91): view('print/harian', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakharian('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-08 13:28:44 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-08 13:28:44 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.css')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-08 13:28:44 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH\Views\func.php on line 102.
+ 1 APPPATH\Views\func.php(102): explode('-', null)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+CRITICAL - 2024-08-08 13:28:44 --> Undefined array key 2
+in APPPATH\Views\func.php on line 103.
+ 1 APPPATH\Views\func.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'D:\\PROJECT-CI\\mustofa\\app\\Views\\func.php', 103)
+ 2 APPPATH\Views\print\pertanggal.php(25): formatTanggal(null)
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\mustofa\\app\\Views\\print\\pertanggal.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('print/pertanggal', [], true)
+ 6 APPPATH\Controllers\Absensi.php(182): view('print/pertanggal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggal('main.js')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-08 13:30:25 --> mysqli_sql_exception: Duplicate entry '601-2024-08-08-0' for key 'PRIMARY' in D:\PROJECT-CI\mustofa\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\mustofa\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tw...', 0)
+#1 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tw...')
+#2 D:\PROJECT-CI\mustofa\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tw...')
+#3 D:\PROJECT-CI\mustofa\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tw...', Array, false)
+#4 D:\PROJECT-CI\mustofa\app\Models\Absensi_model.php(213): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\PROJECT-CI\mustofa\app\Controllers\Absensi.php(534): App\Models\Absensi_model->saveAbsensi(Array)
+#6 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(934): App\Controllers\Absensi->updatemasuk()
+#7 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+#8 D:\PROJECT-CI\mustofa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\PROJECT-CI\mustofa\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\PROJECT-CI\mustofa\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\m...')
+#11 {main}
+CRITICAL - 2024-08-08 13:30:25 --> Duplicate entry '601-2024-08-08-0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2024-08-08\', \'06:30\', \'0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2024-08-08\', \'06:30\', \'0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (\'601\', \'1\', \'2024-08-08\', \'06:30\', \'0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tweb_pegawai_hadir` (`NO_INDUK`, `ID_PEGAWAI`, `TANGGAL`, `JAM`, `STATUS`) VALUES (:NO_INDUK:, :ID_PEGAWAI:, :TANGGAL:, :JAM:, :STATUS:)', [...], false)
+ 5 APPPATH\Models\Absensi_model.php(213): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Absensi.php(534): App\Models\Absensi_model->saveAbsensi([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->updatemasuk()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-08 13:33:53 --> Attempt to read property "nama_ptk" on null
+in APPPATH\Controllers\Absensi.php on line 260.
+ 1 APPPATH\Controllers\Absensi.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_ptk" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensi.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggaluser('main.css')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-08 13:33:53 --> Attempt to read property "nama_ptk" on null
+in APPPATH\Controllers\Absensi.php on line 260.
+ 1 APPPATH\Controllers\Absensi.php(260): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_ptk" on null', 'D:\\PROJECT-CI\\mustofa\\app\\Controllers\\Absensi.php', 260)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensi->cetakpertanggaluser('main.js')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensi))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\mustofa\\public\\index.php')
+INFO - 2024-08-08 13:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-08 13:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

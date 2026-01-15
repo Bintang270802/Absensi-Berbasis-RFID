@@ -1,0 +1,376 @@
+INFO - 2024-06-06 11:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:54:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 11:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:02:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:06:15 --> Undefined property: stdClass::$jml_cuti
+in APPPATH\Controllers\Setting.php on line 32.
+ 1 APPPATH\Controllers\Setting.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_cuti', 'D:\\PROJECT-CI\\absen_mahad\\app\\Controllers\\Setting.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Setting->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 12:10:51 --> mysqli_sql_exception: Unknown column 'logo' in 'field list' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT logo FRO...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT logo FRO...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT logo FRO...')
+#3 D:\PROJECT-CI\absen_mahad\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT logo FRO...')
+#4 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#5 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#6 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#9 {main}
+CRITICAL - 2024-06-06 12:10:51 --> Unknown column 'logo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT logo FROM t_setting_aplikasi', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT logo FROM t_setting_aplikasi')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT logo FROM t_setting_aplikasi')
+ 4 APPPATH\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT logo FROM t_setting_aplikasi')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+ERROR - 2024-06-06 12:12:14 --> mysqli_sql_exception: Unknown column 'logo' in 'field list' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT logo FRO...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT logo FRO...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT logo FRO...')
+#3 D:\PROJECT-CI\absen_mahad\app\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT logo FRO...')
+#4 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+#5 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+#6 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#9 {main}
+CRITICAL - 2024-06-06 12:12:14 --> Unknown column 'logo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT logo FROM t_setting_aplikasi', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT logo FROM t_setting_aplikasi')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT logo FROM t_setting_aplikasi')
+ 4 APPPATH\Controllers\Cpanel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT logo FROM t_setting_aplikasi')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Cpanel->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cpanel))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:27:22 --> Undefined variable: idTapel
+in APPPATH\Views\home\home_admin.php on line 36.
+ 1 APPPATH\Views\home\home_admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idTapel', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(45): view('home/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:38:57 --> Undefined variable: idTapel
+in APPPATH\Views\home\home_admin.php on line 36.
+ 1 APPPATH\Views\home\home_admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idTapel', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(45): view('home/home_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:48:56 --> Undefined variable: idTapel
+in APPPATH\Views\home\home_admin.php on line 36.
+ 1 APPPATH\Views\home\home_admin.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: idTapel', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 36, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:50:58 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 2097160 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-06 12:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:51:58 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Toolbar.php on line 168.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-06 12:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:53:47 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 2097160 bytes)
+in SYSTEMPATH\Debug\Toolbar.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-06-06 12:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 12:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:58:41 --> Undefined variable: all_kry
+in APPPATH\Views\home\home_admin.php on line 374.
+ 1 APPPATH\Views\home\home_admin.php(374): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all_kry', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 374, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:59:20 --> Undefined variable: all_kry
+in APPPATH\Views\home\home_admin.php on line 405.
+ 1 APPPATH\Views\home\home_admin.php(405): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all_kry', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 405, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:59:31 --> Undefined variable: all_kry
+in APPPATH\Views\home\home_admin.php on line 436.
+ 1 APPPATH\Views\home\home_admin.php(436): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all_kry', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 436, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 12:59:41 --> Undefined variable: all_kry
+in APPPATH\Views\home\home_admin.php on line 470.
+ 1 APPPATH\Views\home\home_admin.php(470): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: all_kry', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php', 470, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\home\\home_admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/home_admin', [], true)
+ 5 APPPATH\Controllers\Home.php(39): view('home/home_admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 12:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:00:57 --> Undefined property: stdClass::$jam_lembur
+in APPPATH\Controllers\Setting.php on line 31.
+ 1 APPPATH\Controllers\Setting.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jam_lembur', 'D:\\PROJECT-CI\\absen_mahad\\app\\Controllers\\Setting.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Setting->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Setting))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:07:15 --> Invalid file: "master/tingkatkelas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/tingkatkelas.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/tingkatkelas', [], true)
+ 3 APPPATH\Controllers\Tingkatkelas.php(31): view('master/tingkatkelas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Tingkatkelas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tingkatkelas))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:07:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:17:58 --> Undefined variable: getJenis
+in APPPATH\Views\master\koreksi.php on line 48.
+ 1 APPPATH\Views\master\koreksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getJenis', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\master\\koreksi.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\master\\koreksi.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksi', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(442): view('master/koreksi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksi()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:19:23 --> Call to undefined function nmrombel()
+in APPPATH\Views\master\koreksisiswa.php on line 79.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksisiswa', [], true)
+ 4 APPPATH\Controllers\Absensisiswa.php(442): view('master/koreksisiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksi()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:22:59 --> Call to undefined function nmrombel()
+in APPPATH\Views\master\koreksisiswa.php on line 79.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksisiswa', [], true)
+ 4 APPPATH\Controllers\Absensisiswa.php(442): view('master/koreksisiswa', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksi()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-06 13:27:42 --> mysqli_sql_exception: Unknown column 'id_rombel' in 'where clause' in D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\PROJECT-CI\absen_mahad\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\PROJECT-CI\absen_mahad\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\PROJECT-CI\absen_mahad\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\PROJECT-CI\absen_mahad\app\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\PROJECT-CI\absen_mahad\app\Views\master\koreksisiswa.php(118): sts_absen('4', '2024-06-06')
+#6 D:\PROJECT-CI\absen_mahad\system\View\View.php(213): include('D:\\PROJECT-CI\\a...')
+#7 D:\PROJECT-CI\absen_mahad\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\PROJECT-CI\absen_mahad\system\Common.php(1184): CodeIgniter\View\View->render('master/koreksis...', Array, true)
+#9 D:\PROJECT-CI\absen_mahad\app\Controllers\Absensisiswa.php(411): view('master/koreksis...', Array)
+#10 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksi()
+#11 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+#12 D:\PROJECT-CI\absen_mahad\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\PROJECT-CI\absen_mahad\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 D:\PROJECT-CI\absen_mahad\system\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\a...')
+#15 {main}
+CRITICAL - 2024-06-06 13:27:42 --> Unknown column 'id_rombel' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `r_hari`
+WHERE `id_rombel` = :id_rombel:', [...], false)
+ 5 APPPATH\Views\func_siswa.php(245): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH\Views\master\koreksisiswa.php(118): sts_absen('4', '2024-06-06')
+ 7 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\master\\koreksisiswa.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/koreksisiswa', [], true)
+10 APPPATH\Controllers\Absensisiswa.php(411): view('master/koreksisiswa', [...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->koreksi()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:28:34 --> Invalid file: "report/persiswa.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('report/persiswa.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/persiswa', [], true)
+ 3 APPPATH\Controllers\Absensisiswa.php(367): view('report/persiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->persiswa()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-06 13:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-06 13:29:40 --> Undefined variable: getJenis
+in APPPATH\Views\report\harian.php on line 51.
+ 1 APPPATH\Views\report\harian.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: getJenis', 'D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\harian.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\PROJECT-CI\\absen_mahad\\app\\Views\\report\\harian.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('report/harian', [], true)
+ 5 APPPATH\Controllers\Absensisiswa.php(57): view('report/harian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Absensisiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absensisiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\PROJECT-CI\\absen_mahad\\public\\index.php')
+INFO - 2024-06-06 13:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
