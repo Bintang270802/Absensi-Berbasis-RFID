@@ -6,7 +6,6 @@ use App\Models\Absensisiswa_model;
 use App\Models\Pointsiswa_model;
 use App\Models\Siswa_model;
 use App\Models\Totalpointsiswa_model;
-use App\Models\Pesan_model;
 
 use CodeIgniter\Controller;
 
@@ -24,7 +23,7 @@ class Dashboard extends Controller
         $tgl = date('Y-m-d');
         $bln = date('m');
         $thn = date('Y');
-        $id_tapel = 2;
+        $id_tapel = session()->get('id_tapel') ?? 1; // Get from session or default to 1
         $id = $this->request->getVar('id');
 
         //cek hari
@@ -47,7 +46,9 @@ class Dashboard extends Controller
 
         //ambil logo
         $db = \Config\Database::connect();
-        $query = $db->query("SELECT file FROM t_setting_aplikasi");
+        $builder = $db->table('t_setting_aplikasi');
+        $builder->select('file');
+        $query = $builder->get();
         $row = $query->getRow();
 
         $data = array(
@@ -56,7 +57,7 @@ class Dashboard extends Controller
             'getHari' => $hari,
             'getId' => $id,
             'getIdtapel' => $id_tapel,
-            'getLogo' => $row->file
+            'getLogo' => $row ? $row->file : null
         ); 
         echo view('index/sidebar_front');
         echo view('func_siswa');
@@ -78,7 +79,7 @@ class Dashboard extends Controller
         $tgl = date('Y-m-d');
         $bln = date('m');
         $thn = date('Y');
-        $id_tapel = 2;
+        $id_tapel = session()->get('id_tapel') ?? 1; // Get from session or default to 1
         
         //cek apakah id siswa terdaftar
         $db = \Config\Database::connect();
@@ -94,7 +95,10 @@ class Dashboard extends Controller
             $idrombel = idsiswatoidrombel($id_siswa,$id_tapel);
             if ($idrombel > 0) {
                 //cek jadwal jam masuk dan pulang
-                $queryjadwal = $db->query("SELECT sts_hari,jammasuk,jampulang FROM r_hari where nm_hari='$hari'");
+                $builderjadwal = $db->table('r_hari');
+                $builderjadwal->select('sts_hari,jammasuk,jampulang');
+                $builderjadwal->where('nm_hari', $hari);
+                $queryjadwal = $builderjadwal->get();
                 $rowjadwal = $queryjadwal->getRow();
                 $jammasuk = $rowjadwal->jammasuk;
                 $jampulang = $rowjadwal->jampulang;
@@ -112,11 +116,14 @@ class Dashboard extends Controller
                     $buildercekhadir->where('sts_hadir', 0);
                     $allcekhadir = $buildercekhadir->countAllResults();
 
-                    //ambil data siswa berdsarkan id siswa
-                    $querysiswa = $db->query("SELECT nm_siswa,no_induk,hp,nm_rombel FROM t_siswa 
-                    join t_siswa_rombel ON t_siswa_rombel.id_siswa = t_siswa.id_siswa
-                    join t_rombel ON t_rombel.id_rombel = t_siswa_rombel.id_rombel
-                    where t_siswa.id_siswa='$id_siswa' and t_siswa_rombel.id_tapel='$id_tapel'");
+                    //ambil data siswa berdasarkan id siswa
+                    $buildersiswa = $db->table('t_siswa');
+                    $buildersiswa->select('nm_siswa,no_induk,hp,nm_rombel');
+                    $buildersiswa->join('t_siswa_rombel', 't_siswa_rombel.id_siswa = t_siswa.id_siswa');
+                    $buildersiswa->join('t_rombel', 't_rombel.id_rombel = t_siswa_rombel.id_rombel');
+                    $buildersiswa->where('t_siswa.id_siswa', $id_siswa);
+                    $buildersiswa->where('t_siswa_rombel.id_tapel', $id_tapel);
+                    $querysiswa = $buildersiswa->get();
                     $rowsiswa = $querysiswa->getRow();
 
                     if ($allcekhadir > 0) {
@@ -198,9 +205,14 @@ class Dashboard extends Controller
                         if ($allpoint == 0) {
                             if ($all2 > 0) {
                                 //cek total point terakhir
-                                $querypoint = $db->query("SELECT jml_point FROM t_total_point_siswa where id_siswa='$id_siswa' and bln='$bln' and id_tapel=' $id_tapel'");
+                                $builderpoint = $db->table('t_total_point_siswa');
+                                $builderpoint->select('jml_point');
+                                $builderpoint->where('id_siswa', $id_siswa);
+                                $builderpoint->where('bln', $bln);
+                                $builderpoint->where('id_tapel', $id_tapel);
+                                $querypoint = $builderpoint->get();
                                 $rowpoint = $querypoint->getRow();
-                                $totpoint = $rowpoint->jml_point;
+                                $totpoint = $rowpoint ? $rowpoint->jml_point : 0;
                                 $pointbaru = $totpoint + $point;
                                 $datatotal = array(
                                     'jml_point' => $pointbaru

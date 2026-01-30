@@ -53,7 +53,7 @@ function stsptk($kode){
     if($kode==1){
         echo "Aktif";
     }elseif($kode==2){
-        echo "TIdak Aktif";
+        echo "Tidak Aktif";
     }
 }
 
@@ -1019,14 +1019,17 @@ function nmrombel($id_rombel) {
     $builder = $db->table('t_rombel');
     $builder->where('id_rombel', $id_rombel);
    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT nm_rombel FROM t_rombel where id_rombel='$id_rombel'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_rombel');
+        $builder->select('nm_rombel');
+        $builder->where('id_rombel', $id_rombel);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->nm_rombel;
+        $sts = $row ? $row->nm_rombel : "";
     }else{
-        $sts="";
+        $sts = "";
     }
     
     return $sts;
@@ -1036,14 +1039,17 @@ function idsiswa($induk) {
     $builder = $db->table('t_siswa');
     $builder->where('no_induk', $induk);
    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_siswa FROM t_siswa where no_induk='$induk'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_siswa');
+        $builder->select('id_siswa');
+        $builder->where('no_induk', $induk);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->id_siswa;
+        $sts = $row ? $row->id_siswa : 0;
     }else{
-        $sts=0;
+        $sts = 0;
     }
     
     return $sts;
@@ -1053,14 +1059,17 @@ function rfidtoidsiswa($rfid) {
     $builder = $db->table('t_siswa');
     $builder->where('rfid', $rfid);
    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_siswa FROM t_siswa where rfid='$rfid'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_siswa');
+        $builder->select('id_siswa');
+        $builder->where('rfid', $rfid);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->id_siswa;
+        $sts = $row ? $row->id_siswa : 0;
     }else{
-        $sts=0;
+        $sts = 0;
     }
     
     return $sts;
@@ -1070,14 +1079,17 @@ function rfidtoidptk($rfid) {
     $builder = $db->table('t_ptk');
     $builder->where('nomor_rfid', $rfid);
    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_ptk FROM t_ptk where nomor_rfid='$rfid'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_ptk');
+        $builder->select('id_ptk');
+        $builder->where('nomor_rfid', $rfid);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->id_ptk;
+        $sts = $row ? $row->id_ptk : 0;
     }else{
-        $sts=0;
+        $sts = 0;
     }
     
     return $sts;
@@ -1087,14 +1099,18 @@ function rombelwalikelas($id, $tapel) {
     $builder = $db->table('t_rombel');
     $builder->where('id_walikelas', $id);
     $builder->where('id_tapel', $tapel);
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_rombel FROM t_rombel where id_walikelas='$id' and id_tapel='$tapel'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_rombel');
+        $builder->select('id_rombel');
+        $builder->where('id_walikelas', $id);
+        $builder->where('id_tapel', $tapel);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->id_rombel;
+        $sts = $row ? $row->id_rombel : 0;
     }else{
-        $sts=0;
+        $sts = 0;
     }
     
     return $sts;
@@ -1105,14 +1121,18 @@ function idsiswatoidrombel($id,$idtapel) {
     $builder->where('id_siswa', $id);
     $builder->where('id_tapel', $idtapel);
    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //cek id rombel
-        $query = $db->query("SELECT id_rombel FROM t_siswa_rombel where id_siswa='$id' and id_tapel='$idtapel'");
+    $all = $builder->countAllResults();
+    if($all > 0){
+        // Use query builder instead of raw SQL
+        $builder = $db->table('t_siswa_rombel');
+        $builder->select('id_rombel');
+        $builder->where('id_siswa', $id);
+        $builder->where('id_tapel', $idtapel);
+        $query = $builder->get();
         $row = $query->getRow();
-        $sts = $row->id_rombel;
+        $sts = $row ? $row->id_rombel : 0;
     }else{
-        $sts=0;
+        $sts = 0;
     }
     
     return $sts;
@@ -1120,20 +1140,26 @@ function idsiswatoidrombel($id,$idtapel) {
 function jammasukhari($hari) {
     $db = \Config\Database::connect();
     
-    //cek jam masuk
-    $query = $db->query("SELECT jammasuk FROM r_hari where nm_hari='$hari'");
+    // Use query builder instead of raw SQL
+    $builder = $db->table('r_hari');
+    $builder->select('jammasuk');
+    $builder->where('nm_hari', $hari);
+    $query = $builder->get();
     $row = $query->getRow();
-    $sts = $row->jammasuk;
+    $sts = $row ? $row->jammasuk : null;
     
     return $sts;
 }
 function nmshift($id) {
     $db = \Config\Database::connect();
     
-    //cek jam masuk
-    $query = $db->query("SELECT nm_shift FROM r_shift where id_shift='$id'");
+    // Use query builder instead of raw SQL
+    $builder = $db->table('r_shift');
+    $builder->select('nm_shift');
+    $builder->where('id_shift', $id);
+    $query = $builder->get();
     $row = $query->getRow();
-    $sts = $row->nm_shift;
+    $sts = $row ? $row->nm_shift : null;
     
     return $sts;
 }
