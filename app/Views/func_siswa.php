@@ -20,7 +20,7 @@ function stsptk($kode){
     if($kode==1){
         echo "Aktif";
     }elseif($kode==2){
-        echo "TIdak Aktif";
+        echo "Tidak Aktif";
     }
 }
 
@@ -272,7 +272,10 @@ function hari($kode){
             $builder_jadwal = $db->table('r_hari');
             $jadwal =  $builder_jadwal->countAllResults();
             if($jadwal>0){
-                $query = $db->query("SELECT sts_hari,jammasuk FROM r_hari where nm_hari='$hari'");
+                $builder_jadwal = $db->table('r_hari');
+                $builder_jadwal->select('sts_hari,jammasuk');
+                $builder_jadwal->where('nm_hari', $hari);
+                $query = $builder_jadwal->get();
                 $row = $query->getRow();
                 $sts = $row->sts_hari;
                 $jam_masuk = $row->jammasuk;
@@ -288,8 +291,12 @@ function hari($kode){
                         
                         if($all>0){
                             //ambil jam masuk
-                            $queryjam = $db->query("SELECT jam FROM t_siswa_hadir 
-                            where id_siswa='$id_siswa' and tgl_hadir='$tgl' and sts_hadir=0");
+                            $builderjam = $db->table('t_siswa_hadir');
+                            $builderjam->select('jam');
+                            $builderjam->where('id_siswa', $id_siswa);
+                            $builderjam->where('tgl_hadir', $tgl);
+                            $builderjam->where('sts_hadir', 0);
+                            $queryjam = $builderjam->get();
                             $rowjam = $queryjam->getRow();
                             $jam = $rowjam->jam;
                             if($jam>$jam_masuk){
@@ -307,7 +314,12 @@ function hari($kode){
                             $all_abs =  $builder_abs->countAllResults();
                             if($all_abs>0){
                                 //cari status absen
-                                $query = $db->query("SELECT sts_absen FROM t_siswa_absen where id_siswa='$id_siswa' and tgl_absen='$tgl' and sts_approve='1'");
+                                $builderstatus = $db->table('t_siswa_absen');
+                                $builderstatus->select('sts_absen');
+                                $builderstatus->where('id_siswa', $id_siswa);
+                                $builderstatus->where('tgl_absen', $tgl);
+                                $builderstatus->where('sts_approve', 1);
+                                $query = $builderstatus->get();
                                 $row = $query->getRow();
                                 $status = $row->sts_absen;
                                 if($status==2){
@@ -1059,87 +1071,6 @@ function terbilang($nilai) {
     return $hasil;
 }
 
-function nmrombel($id_rombel) {
-    $db = \Config\Database::connect();
-    $builder = $db->table('t_rombel');
-    $builder->where('id_rombel', $id_rombel);
-   
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT nm_rombel FROM t_rombel where id_rombel='$id_rombel'");
-        $row = $query->getRow();
-        $sts = $row->nm_rombel;
-    }else{
-        $sts="";
-    }
-    
-    return $sts;
-}
-function idsiswa($induk) {
-    $db = \Config\Database::connect();
-    $builder = $db->table('t_siswa');
-    $builder->where('no_induk', $induk);
-   
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_siswa FROM t_siswa where no_induk='$induk'");
-        $row = $query->getRow();
-        $sts = $row->id_siswa;
-    }else{
-        $sts=0;
-    }
-    
-    return $sts;
-}
-function rfidtoidsiswa($rfid) {
-    $db = \Config\Database::connect();
-    $builder = $db->table('t_siswa');
-    $builder->where('rfid', $rfid);
-   
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_siswa FROM t_siswa where rfid='$rfid'");
-        $row = $query->getRow();
-        $sts = $row->id_siswa;
-    }else{
-        $sts=0;
-    }
-    
-    return $sts;
-}
-
-function idsiswatoidrombel($id,$idtapel) {
-    $db = \Config\Database::connect();
-    $builder = $db->table('t_siswa_rombel');
-    $builder->where('id_siswa', $id);
-    $builder->where('id_tapel', $idtapel);
-    
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //cek id rombel
-        $query = $db->query("SELECT id_rombel FROM t_siswa_rombel where id_siswa='$id' and id_tapel='$idtapel'");
-        $row = $query->getRow();
-        $sts = $row->id_rombel;
-    }else{
-        $sts=0;
-    }
-    
-    return $sts;
-}
-function jammasukhari($hari) {
-    $db = \Config\Database::connect();
-    
-    //cek jam masuk
-    $query = $db->query("SELECT jammasuk FROM r_hari where nm_hari='$hari'");
-    $row = $query->getRow();
-    $sts = $row->jammasuk;
-    
-    return $sts;
-}
-
 function jumlah_hari($bulan, $tahun)
 {
     if ($bulan < 1 OR $bulan > 12)
@@ -1160,20 +1091,4 @@ function jumlah_hari($bulan, $tahun)
     $jumlah_hari    = array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
     return $jumlah_hari[$bulan - 1];
 }
-function rombelwalikelas($id, $tapel) {
-    $db = \Config\Database::connect();
-    $builder = $db->table('t_rombel');
-    $builder->where('id_walikelas', $id);
-    $builder->where('id_tapel', $tapel);
-    $all =  $builder->countAllResults();
-    if($all>0){
-       //jumlah point
-        $query = $db->query("SELECT id_rombel FROM t_rombel where id_walikelas='$id' and id_tapel='$tapel'");
-        $row = $query->getRow();
-        $sts = $row->id_rombel;
-    }else{
-        $sts=0;
-    }
-    
-    return $sts;
-}
+?>
